@@ -1,10 +1,38 @@
 body,
 h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+.h1, .h2, .h3, .h4, .h5, .h6, .text-pc {
 	color: #18172b;
+}
+h4 {
+	
 }
 p:last-child {
 	margin-bottom: 0px !important;
+}
+b, strong {
+	font-weight: bold;
+}
+a, a:visited {
+	color: #6503ff;
+}
+a:hover, a:active, a:focus {
+	color: #00ffcb;
+}
+.text-pc {
+	color: #18172b !important;
+}
+.bg-no-stretch {
+	background-size: 100% auto !important;
+	background-position: top center !important;
+}
+.text-xl-st-white,
+.text-xl-st-white h1,
+.text-xl-st-white h3,
+.text-xl-st-white a,
+.text-xl-st-white a:hover,
+.text-xl-st-white a:active,
+.text-xl-st-white a:focus {
+	color: #ffffff;
 }
 .st_about_single_full h2,
 .st_about_single_full p {
@@ -22,6 +50,120 @@ p:last-child {
 .sticky-menu .st_logo svg g {
 	fill: #18172b;
 }
+
+/* Menu */
+body#about .st_header_area {
+	/* background: #ffffff; */
+}
+body#about .st_header_area .st_logo svg g{
+	fill: #18172b;
+}
+body#about .st_header_area .st_menu ul > li a:not(.st_default_btn) {
+	color: #18172b;
+}
+
+/* Banner */
+.st_banner_content h1,
+.st_banner_content .h1 {
+	color: #ffffff;
+	font-size: 36px;
+	line-height: 1.8;
+	font-weight: 300;
+}
+.st_banner_content h2,
+.st_banner_content .h4 {
+	color: #ffffff;
+}
+
+/* Docs */
+.st-doc-single-wrapper {
+	line-height: 1.6;
+}
+.st-doc-single-wrapper h3 {
+	margin:40px 0px 20px 0px;
+}
+
+/* Teams */
+.st_team_item a,
+.st_team_item a:visited,
+.st_team_item a:hover,
+.st_team_item a:active {
+	color: #18172b;
+	-webkit-transition: all 0.4s ease 0s;
+	-ms-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+.st_team_item a:hover,
+.st_team_item a:active {
+	opacity: 0.5;
+}
+
+/* Jobs */
+.angellist_jobs {
+	max-width: 100% !important;
+	text-align: left;
+	padding-left: 40px;
+	border-left: 3px solid #ccd8e5;
+	-webkit-transition: all 0.4s ease 0s;
+	-ms-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+.angellist_jobs:hover {
+	border-color: #18172b;
+}
+.angellist_jobs-job {
+	margin-bottom: 40px !important;
+}
+.angellist_jobs-job:last-child {
+	margin-bottom: 0px !important;
+}
+.angellist_jobs-title {
+	margin-bottom: 20px;
+}
+.angellist_jobs-title-link,
+.angellist_jobs-title-link:hover,
+.angellist_jobs-title-link:visited,
+.angellist_jobs-title-link:active {
+	color: #18172b !important;
+	font-weight: 700 !important;
+}
+.angellist_jobs-title-link:after {
+	content: "View role";
+	margin-left: 30px;
+	font-weight: 400;
+	padding: 4px 10px;
+	background: #18172b;
+	color: #ffffff;
+	display: inline;
+	opacity: 0.4;
+	border-radius: 3px;
+	-webkit-transition: all 0.4s ease 0s;
+	-ms-transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+	transition: all 0.4s ease 0s;
+}
+.angellist_jobs:hover .angellist_jobs-title-link:after {
+	opacity: 1;
+}
+.angellist_jobs-tags {
+	color: #18172b !important;
+	opacity: 0.7;
+}
+
+/* Clients */
+/* .st_client_waraper .st_client_item {
+	margin-bottom: 50px;
+} */
+.st_client_waraper .st_client_item img {
+	max-width: 150px;
+}
+
+/* Tabs */
 .st_tab_content ol {
 	list-style: none;
 	counter-reset: counter;
@@ -46,23 +188,6 @@ p:last-child {
 	font-size: 50px;
 	line-height: 120%;
 }
-.st_footer_logo_warap a {
-	margin-bottom: 41px;
-	display: block;
-}
-.st_footer_logo_warap svg g {
-	fill: #5a596d;
-}
-.st_banner_content h1,
-.st_banner_content .h1 {
-	color: #ffffff;
-	font-size: 36px;
-	line-height: 1.8;
-	font-weight: 300;
-}
-#intro {
-	text-align: center;
-}
 .st_custom-tab ul.nav.nav-pills li a {
 	font-size: 1em;
 	padding: 29px 30px;
@@ -79,14 +204,29 @@ p:last-child {
 .nav-pills .show>.nav-link {
 	background: rgba(255, 255, 255, 0.08);
 }
+
+/* Contact */
 .st_contact_waraper .st_input_item input,
 .st_contact_waraper .st_input_item textarea,
 .st_select_warap select {
 	padding: 10px 25px;
 	font-size: 1em;
 }
+
+/* Footer */
+footer.st_default_footer_area {
+	font-weight: 400;
+}
+.st_footer_logo_warap a {
+	margin-bottom: 41px;
+	display: block;
+}
+.st_footer_logo_warap svg g {
+	fill: #5a596d;
+}
 footer.st_default_footer_area {
 	font-size: 16px;
+	border-top: 1px solid #d7e1eb;
 }
 footer.st_default_footer_area,
 h3.footer_heading {
@@ -95,12 +235,20 @@ h3.footer_heading {
 footer.st_default_footer_area .st_footer_logo_warap {
 	margin-bottom: 0px;
 }
+footer.st_default_footer_area .footer_subtext {
+	font-size: 12px;
+	margin-top: 60px;
+	text-align: center;
+	line-height: 1.4;
+	color: #9b9ab2;
+}
 .footer_sub {
-	margin-top: 80px;
+	margin-top: 100px;
 	border-top: 1px solid #d7e1eb;
 	padding: 60px 0px 0px 0px;
 	font-size: 13px;
 	color: #9b9ab2;
+	font-weight: 400;
 }
 .footer_sub_left {
 	line-height: 200%;
@@ -120,8 +268,12 @@ footer.st_default_footer_area .st_footer_logo_warap {
 .footer_sub .st_social_icon ul li:last-child {
 	margin-right: 0px;
 }
-.footer_sub a:hover,
-.footer_sub .st_social_icon ul li a {
+footer.st_default_footer_area .footer_subtext a,
+footer.st_default_footer_area .footer_subtext a:visited,
+.footer_sub a,
+.footer_sub a:visited,
+.footer_sub .st_social_icon ul li a,
+.footer_sub .st_social_icon ul li a:visited {
 	color: #9b9ab2;
 	-webkit-transition: all 0.4s ease 0s;
 	-ms-transition: all 0.4s ease 0s;
@@ -129,7 +281,11 @@ footer.st_default_footer_area .st_footer_logo_warap {
 	-o-transition: all 0.4s ease 0s;
 	transition: all 0.4s ease 0s;
 }
+footer.st_default_footer_area .footer_subtext a:hover,
+footer.st_default_footer_area .footer_subtext a:active,
 .footer_sub a:hover,
-.footer_sub .st_social_icon ul li a:hover {
+.footer_sub a:active,
+.footer_sub .st_social_icon ul li a:hover,
+.footer_sub .st_social_icon ul li a:active {
 	color: #5a596d;
 }
