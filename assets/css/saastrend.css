@@ -28301,7 +28301,7 @@ img.feature-force-large-thumb {
   overflow: hidden;
   margin: 0 auto;
   margin-bottom: 30px;
-  border: 10px solid #FFFFFF;
+  border: 6px solid #FFFFFF;
   box-shadow: 0 3px 80px rgba(0, 0, 0, 0.1);
   border-radius: 100%;
 }
