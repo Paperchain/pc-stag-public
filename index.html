@@ -258,15 +258,15 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="st_contact_hedding_title">
 								<h2>Access Financing</h2>
 							</div>
-							<form class="st_contact_form_box" id="mediaco-form" onsubmit="return false;" action="#" method="POST" netlify>
+							<form class="st_contact_form_box" name="mediaco_form" id="mediaco_form" onsubmit="return false;" autocomplete="off" method="POST" netlify>
 								<div class="st_input_item">
-									<input type="text" placeholder="First Name" name="mediaco_fname" id="mediaco_fname">
+									<input type="text" placeholder="First Name" name="mediaco_fname" id="mediaco_fname" required="required">
 								</div>
 								<div class="st_input_item">
-									<input type="text" placeholder="Last Name" name="mediaco_lname" id="mediaco_lname">
+									<input type="text" placeholder="Last Name" name="mediaco_lname" id="mediaco_lname" required="required">
 								</div>
 								<div class="st_input_item">
-									<input  type="email" placeholder="Business Email" name="mediaco_email" id="mediaco_email">
+									<input  type="email" placeholder="Business Email" name="mediaco_email" id="mediaco_email" required="required">
 								</div>
 								<div class="st_input_item">
 									<input type="text" placeholder="Phone" name="mediaco_phone" id="mediaco_phone" required="required">
@@ -284,7 +284,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									</select>
 								</div>
 								<div class="st_input_item">
-									<input type="text" placeholder="Monthly Sales Revenue" name="mediaco_revenue" id="mediaco_revenue">
+									<input type="text" placeholder="Monthly Sales Revenue" name="mediaco_revenue" id="mediaco_revenue" required="required">
 								</div>
 								<div class="st_input_item">
 									<input type="submit" id="media-co-form-submit-btn" value="Begin Application">
@@ -356,7 +356,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				<div class="row footer_sub">
 					<div class="col-lg-6 footer_sub_left">
 						&copy; Paperchain.io  <script type="text/javascript">document.write(new Date().getFullYear());</script>  All rights reserved.<br />
-						<a href="privacy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a>
+						<a href="/privacy">Privacy Policy</a> | <a href="/terms-of-use">Terms of Use</a>
 					</div>
 					<div class="col-lg-6 footer_sub_right">
 						<div class="st_social_icon">
@@ -376,7 +376,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		</footer><!--- End Footer -->
 
 		<!-- build:js -->
-	    <script src="assets/js/plugins.min.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+			<script src="assets/js/plugins.min.js"></script>
 	    <script src="assets/js/sliderInit.js"></script>
 	    <script src="assets/js/saastrend.js"></script>
 	    <script src="assets/js/custom.js"></script>
