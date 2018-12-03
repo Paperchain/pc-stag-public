@@ -25904,7 +25904,7 @@ footer.st_default_footer_area .st_fotter_menu.text-shhamrock ul li a,
 	-ms-transform: rotate(180deg);
 	transform: rotate(180deg);
 	bottom: auto;
-	top: -0.5px;
+	top: -1px;
 }
 
 @supports not ((-webkit-clip-path: polygon(0% 100%, 100% 100%, 100% 0%)) or (clip-path: polygon(0% 100%, 100% 100%, 100% 0%))) {
