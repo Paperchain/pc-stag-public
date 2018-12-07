@@ -28304,6 +28304,13 @@ img.feature-force-large-thumb {
   border: 6px solid #FFFFFF;
   box-shadow: 0 3px 80px rgba(0, 0, 0, 0.1);
   border-radius: 100%;
+  -webkit-border-radius: 100%;
+}
+
+.st_team_item.st_team_item_v3 .st_team_item_img:hover {
+  overflow: hidden;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
 }
 
 .st_team_item.st_team_item_v3 .st_team_item_img img {
@@ -28322,6 +28329,8 @@ img.feature-force-large-thumb {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
 }
 
 .st_team_item.st_team_item_v3 .st_team_item_img img:hover {
@@ -28330,6 +28339,8 @@ img.feature-force-large-thumb {
   -moz-transform: scale(1.2);
   -o-transform: scale(1.2);
   transform: scale(1.2);
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
 }
 
 .st_team_item.st_team_item_v3 .st_team_content h3 {

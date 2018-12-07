@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6,
 	color: #18172b;
 }
 h4 {
-	
+
 }
 p:last-child {
 	margin-bottom: 0px !important;
@@ -183,6 +183,10 @@ body#about .mean-container a.meanmenu-reveal span,
 	max-width: 150px;
 }
 
+.st_client_waraper .st_partner_item img {
+	max-width: 250px;
+}
+
 /* Tabs */
 .st_tab_content ol {
 	list-style: none;
@@ -231,6 +235,9 @@ body#about .mean-container a.meanmenu-reveal span,
 .st_select_warap select {
 	padding: 10px 25px;
 	font-size: 1em;
+}
+.st_contact_form_box button {
+	cursor: pointer;
 }
 
 /* Footer */
@@ -321,12 +328,12 @@ footer.st_default_footer_area .footer_subtext a:active,
 		padding-left: 15px !important;
 		padding-right: 15px !important;
 	}
-	
+
 	/* Tabs */
 	.st_custom-tab ul.nav.nav-pills li a span {
 		margin-top: 0px;
 	}
-	
+
 	/* Footer */
 	.footer_sub .st_social_icon ul li {
 		margin: 0px 15px;
@@ -336,7 +343,7 @@ footer.st_default_footer_area .footer_subtext a:active,
 	}
 }
 @media only screen and (max-width: 991.98px) {
-	
+
 	/* Global */
 	.p-b-150 {
 		padding-bottom: 100px !important;
@@ -350,7 +357,7 @@ footer.st_default_footer_area .footer_subtext a:active,
 	.bg-pc3 {
 		background-size: cover;
 	}
-	
+
 	/* Banner */
 	.st_banner_area {
 		padding: 150px 0px;
@@ -359,13 +366,13 @@ footer.st_default_footer_area .footer_subtext a:active,
 	.left-angle-shape::before {
 		display: none !important;
 	}
-	
+
 	/* Home Intro */
 	#intro.st_promo_area .st_promo_content p.p-l-r-40 {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
-	
+
 	/* Tabs */
 	.st_custom-tab ul.nav.nav-pills li a {
 		padding: 20px 15px 15px 10px;
@@ -381,7 +388,7 @@ footer.st_default_footer_area .footer_subtext a:active,
 	.st_tab_box {
 		padding: 60px 0px 0px 0px;
 	}
-	
+
 	/* Team */
 	#team.st_section_padding {
 		padding-bottom: 50px;
@@ -389,7 +396,7 @@ footer.st_default_footer_area .footer_subtext a:active,
 	#team .row.st_section_padding {
 		padding-top: 50px !important;
 	}
-	
+
 	/* Work With Us */
 	.st_inner_feature_item.st_trasnparent_item {
 		margin-bottom: 40px;
@@ -397,7 +404,7 @@ footer.st_default_footer_area .footer_subtext a:active,
 	#working_with_us.p-b-100 {
 		padding-bottom: 50px !important;
 	}
-	
+
 	/* Partners */
 	.st_client_area.p-b-100 {
 		padding-bottom: 60px !important;
@@ -411,7 +418,7 @@ footer.st_default_footer_area .footer_subtext a:active,
 	#partners .st_section_heding_title.p-t-100 {
 		padding-top: 60px !important;
 	}
-	
+
 	/* Footer */
 	.st_default_footer_area {
 		text-align: center;
