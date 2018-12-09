@@ -104,7 +104,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							</div>
 						</div>
 					</div>
-					
+
 				</div><!--End row -->
 			</div><!--End container -->
 		</section><!--End Banner -->
@@ -393,21 +393,24 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							<div class="st_contact_hedding_title">
 								<h2>Access Financing</h2>
 							</div>
-							<form class="st_contact_form_box" action="#" method="POST">
+							<form class="st_contact_form_box" name="mediaco_form" id="mediaco_form" onsubmit="return false;" autocomplete="off" method="POST" netlify>
 								<div class="st_input_item">
-									<input type="text" placeholder="First Name">
+									<input type="text" placeholder="First Name" name="mediaco_fname" id="mediaco_fname" required="required">
 								</div>
 								<div class="st_input_item">
-									<input type="text" placeholder="Last Name">
+									<input type="text" placeholder="Last Name" name="mediaco_lname" id="mediaco_lname" required="required">
 								</div>
 								<div class="st_input_item">
-									<input  type="text" placeholder="Business Email">
+									<input  type="email" placeholder="Business Email" name="mediaco_email" id="mediaco_email" required="required">
 								</div>
 								<div class="st_input_item">
-									<input type="text" placeholder="Phone">
+									<input  type="text" placeholder="Company Name" name="mediaco_name" id="mediaco_name" required="required">
+								</div>
+								<div class="st_input_item">
+									<input type="text" placeholder="Phone" name="mediaco_phone" id="mediaco_phone" required="required">
 								</div>
 								<div class="st_input_item st_select_warap">
-									<select name="Type of Company">
+									<select name="companytype" required="required">
 										<option value="" disabled selected>Type of Company</option>
 										<option value="Publisher">Publisher</option>
 										<option value="SSP, DSP, Exchange">SSP, DSP, Exchange</option>
@@ -419,12 +422,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 									</select>
 								</div>
 								<div class="st_input_item">
-									<input type="text" placeholder="Monthly Sales Revenue">
+									<input type="text" placeholder="Monthly Sales Revenue" name="mediaco_revenue" id="mediaco_revenue" required="required">
 								</div>
 								<div class="st_input_item">
-									<input type="submit" value="Begin Application">
+									<button type="submit" id="mediaco_form_submit_btn" class="st_default_btn btn_pc1 w-100">
+										Begin Application
+									</button>
 								</div>
-								<div class="form_sub">Your data is not sold or monetized via third-parties. Your information is stored by Paperchain as part of the sign up verification process</div>
+								<div class="form_sub">Your data is not sold or monetized via third-parties. Your information is stored by Paperchain as part of the sign up verification process.</div>
 							</form>
 						</div>
 					</div>
