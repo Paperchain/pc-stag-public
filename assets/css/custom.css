@@ -86,11 +86,15 @@ body#about .mean-container a.meanmenu-reveal span,
 .st_banner_content h1,
 .st_banner_content .h1 {
 	color: #ffffff;
-	font-size: 36px;
+	font-size: 38px;
 	line-height: 1.8;
 	font-weight: 300;
 }
-.st_banner_content h2,
+.st_banner_content h2 {
+	color: #ffffff;
+	font-size: 1.1em;
+	margin-bottom:25px;
+}
 .st_banner_content .h4 {
 	color: #ffffff;
 }
