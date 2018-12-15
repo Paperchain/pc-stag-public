@@ -6,9 +6,73 @@
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Mon, 10 Dec 2018 16:51:15 +1000</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>404 — Uh Oh! We couldn&#39;t find that page.</title>
+      <link>http://example.org/404/</link>
+      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
+      
+      <guid>http://example.org/404/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About Us — Learn more about Paperchain</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cookie Statement — Paperchain</title>
+      <link>http://example.org/cookies/</link>
+      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
+      
+      <guid>http://example.org/cookies/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>FAQ — Learn more about Paperchain</title>
+      <link>http://example.org/faq/</link>
+      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
+      
+      <guid>http://example.org/faq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy — Paperchain</title>
+      <link>http://example.org/privacy-policy/</link>
+      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
+      
+      <guid>http://example.org/privacy-policy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Terms of Use — Paperchain</title>
+      <link>http://example.org/terms-of-use/</link>
+      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
+      
+      <guid>http://example.org/terms-of-use/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thanks for Submitting — We&#39;ll be in touch</title>
+      <link>http://example.org/form-submit/</link>
+      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
+      
+      <guid>http://example.org/form-submit/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
