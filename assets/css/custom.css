@@ -66,6 +66,9 @@ a:hover, a:active, a:focus {
 .p-b-230 {
 	padding-bottom: 250px;
 }
+.m-r-n10 {
+	margin-right: -15px;
+}
 .st-overflow-vis {
 	overflow: visible;
 }
@@ -418,6 +421,9 @@ footer.st_default_footer_area .footer_subtext a:active,
 	.bg-pc3 {
 		background-size: cover;
 	}
+	.mobile-left {
+		text-align: left !important;
+	}
 
 	/* Banner */
 	.st_banner_area {
@@ -478,6 +484,9 @@ footer.st_default_footer_area .footer_subtext a:active,
 	}
 	#partners .st_section_heding_title.p-t-100 {
 		padding-top: 60px !important;
+	}
+	.st_partner_item  {
+		text-align: center;
 	}
 
 	/* Footer */
@@ -545,6 +554,14 @@ footer.st_default_footer_area .footer_subtext a:active,
 }
 
 @media (max-width: 576px) {
+	/* Home Intro */
+	.st_banner_content h1,
+	.st_banner_content .h1,
+	.st_about_single_full h2,
+	h2,
+	.h2	{
+		font-size: 2em;
+	}
 	/* Partners */
 	.st_client_waraper .st_client_item {
 		min-height: auto;
