@@ -13,7 +13,7 @@ b, strong {
 	font-weight: bold;
 }
 a, a:visited {
-	color: #6503ff;
+	color: #18172b;
 }
 a:hover, a:active, a:focus {
 	color: #00ffcb;
@@ -581,4 +581,23 @@ footer.st_default_footer_area .footer_subtext a:active,
 	.st_contact_waraper.contact_pc1 {
 		padding: 20px;
 	}
+}
+
+h4, a.press-title {
+	font-size:18px;
+	font-weight:bold;
+	color:#140F30;
+	text-decoration:none;
+}
+
+.press-title a:hover {
+	color:#6503ff;
+	text-decoration:none;
+}
+
+p.press-author {
+	font-size:13px;
+	text-transform:uppercase;
+	font-weight:normal;
+	color:#9595A8;
 }
