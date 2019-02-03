@@ -1,33 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Get Paperchain — online media investment marketplace modernizing media finance and revenue recognition.</title>
-    <link>https://paperchain.io/</link>
-    <description>Recent content on Get Paperchain — online media investment marketplace modernizing media finance and revenue recognition.</description>
+    <title>Presses on Get Paperchain — online media investment marketplace modernizing media finance and revenue recognition.</title>
+    <link>https://paperchain.io/press/</link>
+    <description>Recent content in Presses on Get Paperchain — online media investment marketplace modernizing media finance and revenue recognition.</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Dec 2018 16:51:15 +1000</lastBuildDate>
     
-	<atom:link href="https://paperchain.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://paperchain.io/press/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>404 — Uh Oh! We couldn&#39;t find that page.</title>
-      <link>https://paperchain.io/404/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/404/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About Us — Learn more about Paperchain</title>
-      <link>https://paperchain.io/about/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/about/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Australian founder Daniel Dewar to tackle $2.5bn in music royalty black boxes with music technology startup Paperchain</title>
@@ -37,24 +19,6 @@
       <guid>https://paperchain.io/press/releases/daniel-dewar-tackle-royalty-black-boxes/</guid>
       <description>Australian founder Daniel Dewar to tackle $2.5bn in music royalty black boxes with music technology startup Paperchain 01 August 2017
  When a streaming service or performing rights organisation is unable to identify the rights owner to pay royalties to, unpaid royalties are held in “royalty black boxes” The global value of these royalty black boxes is estimated to be $2.5bn Paperchain has developed a product to connect rights owners to their unpaid royalties Australian founder Daniel Dewar is basing Paperchain out of London to focus on the large publishing and recording industry opportunities in the US, UK and Europe  London, UK &amp;ndash; Paperchain, a global music technology company, is aiming to solve the music industry’s problem of unpaid royalties by going after the growing amount of unidentified copyright owners.</description>
-    </item>
-    
-    <item>
-      <title>Cookie Statement — Paperchain</title>
-      <link>https://paperchain.io/cookies/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/cookies/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>FAQ — Learn more about Paperchain</title>
-      <link>https://paperchain.io/faq/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/faq/</guid>
-      <description></description>
     </item>
     
     <item>
@@ -122,42 +86,6 @@ The program is held just before the Les Ardentes Festival and is carried out by 
       <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
       
       <guid>https://paperchain.io/press/releases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Press resources on Paperchain</title>
-      <link>https://paperchain.io/press/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/press/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy — Paperchain</title>
-      <link>https://paperchain.io/privacy-policy/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/privacy-policy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terms of Use — Paperchain</title>
-      <link>https://paperchain.io/terms-of-use/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/terms-of-use/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thanks for Submitting — We&#39;ll be in touch</title>
-      <link>https://paperchain.io/form-submit/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/form-submit/</guid>
       <description></description>
     </item>
     
