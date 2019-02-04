@@ -22481,7 +22481,9 @@ footer.st_default_footer_area .st_footer_logo_warap p {
   line-height: 1.8; }
 
 footer.st_default_footer_area .st_footer_logo_warap img {
-  margin-bottom: 26px; }
+  margin-bottom: 26px;
+  max-width: 250px;
+}
 
 footer.st_default_footer_area .st_copyright_content p {
   font-size: 0.875em; }
@@ -28368,7 +28370,7 @@ ul.st-pricing-list.st-bounce-invert ul.st-pricing-wrapper .is-selected {
   font-weight: normal;
   border: none;
   font-size: 1em;
-  padding: 10px 25px;
+  padding: 17px 25px;
   margin: 0;
   cursor: pointer;
   border-radius: 3px;
