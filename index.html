@@ -251,44 +251,31 @@
 							<div class="st_contact_hedding_title">
 								<h2>Join our our beta financing list</h2>
 							</div>
-							<form name="meco_su_long" method="POST" netlify-honeypot="bot-field" action="/form-submit/" netlify-honeypot="bot-field" class="st_contact_form_box" id="meco_su_long" autocomplete="off" data-netlify="true">
-								<div class="st_input_item">
-									<input type="text" placeholder="First Name" name="mediaco_fname" id="mediaco_fname" required="required">
+							<form name="meco_su_short" method="POST" netlify-honeypot="bot-field" action="/form-submit/" class="st_contact_form_box" id="meco_su_short" autocomplete="off" data-netlify="true">
+							  <div class="form-row">
+							  <div class="st_input_item col">
+							    <input type="text" placeholder="First Name" name="mediaco_fname" id="mediaco_fname" required="required">
+							  </div>
+							  <div class="st_input_item col">
+							    <input type="text" placeholder="Last Name" name="mediaco_lname" id="mediaco_lname" required="required">
+							  </div>
+							  </div>
+								<div class="form-row">
+							  <div class="st_input_item">
+							    <input type="email" placeholder="Email" name="mediaco_email" id="mediaco_email" required="required">
+							  </div>
 								</div>
-								<div class="st_input_item">
-									<input type="text" placeholder="Last Name" name="mediaco_lname" id="mediaco_lname" required="required">
+								<div class="form-row">
+							  <div id="divCheckbox" style="visibility: hidden; display:inline;">
+							<label>Don’t fill this out if you're human: <input name="bot-field"></label>
+							</div>
+							</div>
+							<div class="form-row">
+							  <div class="st_input_item">
+							    <input type="submit" value="Request Access" id="meco_su_short_submit_btn" class="st_default_btn btn_pc1 w-100">
+							  </div>
 								</div>
-								<div class="st_input_item">
-									<input  type="email" placeholder="Business Email" name="mediaco_email" id="mediaco_email" required="required">
-								</div>
-								<div class="st_input_item">
-									<input  type="text" placeholder="Company Name" name="mediaco_name" id="mediaco_name" required="required">
-								</div>
-								<div class="st_input_item">
-									<input type="text" placeholder="Phone" name="mediaco_phone" id="mediaco_phone" required="required">
-								</div>
-								<div class="st_input_item st_select_warap">
-									<select name="companytype" required="required">
-										<option value="" disabled selected>Type of Company</option>
-										<option value="Digital Publisher">Digital Publisher</option>
-										<option value="SSP, DSP, Exchange, Media Agency">SSP, DSP, Exchange, Media Agency</option>
-										<option value="Game/App Developer">Game/App Developer</option>
-										<option value="Music Distributor">Music Distributor</option>
-										<option value="Record Label">Record Label</option>
-										<option value="Film Distributor">Film Distributor</option>
-										<option value="Film Production Company">Film Production Company</option>
-									</select>
-								</div>
-								<div class="st_input_item">
-									<input type="text" placeholder="Monthly Sales Revenue" name="mediaco_revenue" id="mediaco_revenue" required="required">
-								</div>
-								<div id="divCheckbox" style="visibility: hidden; display:inline;">
-    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
-  </div>
-								<div class="st_input_item">
-									<input type="submit" value="Access Financing" id="meco_su_long_submit_btn" class="st_default_btn btn_pc1 w-100"/>
-								</div>
-								<div class="form_sub">Your data is not sold or monetized via third-parties. Your information is stored by Paperchain as part of the sign up validation process.</div>
+							  <div class="form_sub">Your data is not sold or monetized via third-parties. Your information is stored by Paperchain as part of the sign up validation process.</div>
 							</form>
 						</div>
 					</div>
