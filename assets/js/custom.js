@@ -28,10 +28,8 @@ $('a[href*="#"].btn_scroll').on('click', function (e) {
 
 })(jQuery);
 
-
-
-
-
-
-
-    
+$(function() {                                       // <== Doc Ready
+    $("#email").change(function() {                  // When the email is changed
+        $('#mediaco_email').val(this.value);                  // copy it over to the mail
+    });
+});
