@@ -6,3 +6,4 @@
 # Redirect default Netlify subdomain to primary domain
 https://paperchain.netlify.com/* https://www.paperchain.io/:splat 301!
 /midem-lab  https://youtu.be/HAuLcnoz6mU  302
+/techstars  https://youtu.be/QFTjUTVzSrs  302
