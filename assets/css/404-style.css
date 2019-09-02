@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'habenmdslktrweb';
+    src: url('fonts/haben-mdslktrweb-webfont.woff2') format('woff2'),
+         url('fonts/haben-mdslktrweb-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #592df6;
+  font-family: 'habenmdslktrweb';
+  font-size: 200px;
+  word-break: break-all;
+  margin: 0px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #fff;
+}
