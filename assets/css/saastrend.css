@@ -27854,7 +27854,7 @@ ul.st-pricing-list.st-bounce-invert ul.st-pricing-wrapper .is-selected {
 *
 * ------------------------------------------------------------------------- */
 .st_client_slider.owl-carousel .owl-item img {
-  width: auto;
+  width: 150px;
   margin: 0 auto; }
 
 /**
@@ -28962,7 +28962,7 @@ div.st_map {
   border-radius: 100%; }
 
 .st_dotted_bg .st_dotted_border .st_solid_bg {
-  background-color: #3A3D98;
+  background-color: #592df6;
   width: 100%;
   height: 100%;
   border-radius: 100%;
@@ -28982,7 +28982,7 @@ div.st_map {
   border-radius: 100%; }
 
 .st_dotted_bg .st_dotted_border .st_solid_bg .st_s {
-  color: #3A3D98;
+  color: #592df6;
   height: 100%;
   font-size: 3.5em;
   font-weight: bold;
@@ -29018,13 +29018,13 @@ div.st_map {
 .st_dotted_bg .st_icon_item .st_about_icon {
   position: absolute;
   font-size: 1.750em;
-  background-color: #F23F79;
+  background-color: #68c5b7;
   color: #fff;
   width: 70px;
   height: 70px;
   line-height: 70px;
   text-align: center;
-  box-shadow: 0 5px 20px rgba(242, 63, 121, 0.45);
+  box-shadow: 0 5px 20px rgba(104, 197, 183, 0.45);
   border-radius: 100%; }
 
 @media only screen and (max-width: 767.98px) {
