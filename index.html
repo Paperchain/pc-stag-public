@@ -50,6 +50,22 @@
       });
     </script>
 
+    <script type="text/javascript">
+$(document).ready(function(e){
+ $('#analytics_modal_submit').click(function(){
+ var email = $('#analyticsmodalRegisterWorkEmailInput').val();
+ var reg = /^([\w-\.]+@(?!gmail.com)(?!yahoo.com)(?!hotmail.com)(?!yahoo.co.in)(?!aol.com)(?!abc.com)(?!xyz.com)(?!pqr.com)(?!rediffmail.com)(?!live.com)(?!outlook.com)(?!me.com)(?!msn.com)(?!ymail.com)([\w-]+\.)+[\w-]{2,4})?$/;
+  if (reg.test(email)){
+ return 0;
+ }
+ else{
+ alert('Please Enter Business Email Address');
+ return false;
+ }
+ });
+});
+</script>
+
     <meta itemprop="name" content="Get Paperchain — real-time revenue analytics for the music industry." />
     <meta
       itemprop="description"
@@ -108,7 +124,7 @@
     <link rel="stylesheet" type="text/css" href="assets/css/saastrend.css" />
 
       <link rel="stylesheet" type="text/css" href="assets/css/custom.css" />
-    
+
     <link rel="stylesheet" type="text/css" href="assets/css/home.css" />
     
     
@@ -206,7 +222,7 @@
         </button>
       </div>
       <div class="modal-body">
-        <form name="analytics-signup" method="POST" action="/form-submit/" id="analytics-signup" autocomplete="off" _lpchecked="1" data-netlify="true" netlify-honeypot="bot-field">
+        <form name="analytics-signup" method="POST/GET" action="/form-submit/" id="analytics-signup" autocomplete="off" _lpchecked="1" data-netlify="true" netlify-honeypot="bot-field" onsubmit="return(validate());">
           <div class="modal-register__form-body">
             <input
               type="text"
@@ -283,7 +299,7 @@
 						</div>
 					</div>
 					<div class="col-lg-7 d-flex align-items-center justify-content-end height-100vh st-d-md-none wow fadeInRight" data-wow-delay="0.3s">
-						<img src="/assets/images/graphic-home.png" alt="Paperchain - Need to access capital? Accelerated and automated AR financing." class="m-r-n10">
+						<img src="/assets/images/product/paperchain-platform-mock.png" alt="Paperchain music streaming analytics app" class="m-r-n10">
 					</div>
 				</div>
 			</div>
