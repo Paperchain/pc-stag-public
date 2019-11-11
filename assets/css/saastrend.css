@@ -3568,7 +3568,7 @@ header.sticky-menu.sticky-white-alpha-bg {
   background-color: rgba(128, 102, 220, 0.1) !important; }
 
 .text-medium-purple {
-  color: #8066DC !important; }
+  color: #5068e2 !important; }
 
 .bg-lochmara {
   background-color: #0079BF !important; }
@@ -4820,13 +4820,13 @@ header.sticky-menu.sticky-white-alpha-bg {
 
 .st_default_btn.text-medium-purple,
 .st_default_btn.st_transparent.text-medium-purple {
-  color: #8066DC !important; }
+  color: #5068e2 !important; }
 
 .st_default_btn.st_transparent.text-medium-purple:hover,
 .st_default_btn.st_transparent.text-medium-purple:focus,
 .st_default_btn.st_transparent.text-medium-purple:active {
-  background-color: #8066DC !important;
-  border-color: #8066DC !important; }
+  background-color: #5068e2 !important;
+  border-color: #5068e2 !important; }
 
 .border-medium-purple {
   border-color: #8066DC !important; }
@@ -22014,7 +22014,7 @@ header.st_header_area .st_menu.text-hover-chambray ul li a:not(.st_default_btn):
   color: #3B3E99; }
 
 header.st_header_area .st_menu.text-medium-purple ul li a:not(.st_default_btn) {
-  color: #8066DC; }
+  color: #5068e2; }
 
 header.sticky-menu.sticky-bg-name {
   background-color: #8066DC; }
@@ -22625,7 +22625,7 @@ footer.st_default_footer_area .st_fotter_menu.text-chambray ul li a,
 
 footer.st_default_footer_area .st_fotter_menu.text-medium-purple ul li a,
 .st_social_icon.text-medium-purple ul li a {
-  color: #8066DC; }
+  color: #5068e2; }
 
 footer.st_default_footer_area .st_fotter_menu.text-lochmara ul li a,
 .st_social_icon.text-lochmara ul li a {
@@ -24268,14 +24268,14 @@ span.st-play-icon-border {
 .st_counter_right h2 {
   font-size: 3.000em;
   font-weight: bold;
-  font-family: "PN", sans-serif;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   margin: 0 0 18px; }
 
 .st_counter_right h4 {
   color: #9595A8;
   font-weight: 500;
   font-size: 1.125em;
-  font-family: "PN", sans-serif; }
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; }
 
 .st_single_counter {
   display: flex;
