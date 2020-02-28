@@ -1,0 +1,198 @@
+/* ----------------------
+*	List Type
+---------------------------*/
+.list-type {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+		position: relative;
+		padding-left: 30px;
+		color: $px-dark;
+		margin: 8px 0;
+		i {
+		    width: 20px;
+		    height: 20px;
+		    border-radius: 50%;
+		    background: lighten($px-theme, 30%);
+		    color: $px-theme;
+		    position: absolute;
+	        top: 4px;
+		    line-height: 20px;
+		    left: 0;
+		    text-align: center;
+		    font-size: 10px;
+		}
+	}
+}
+
+
+.list-type-01 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+		position: relative;
+		padding-left: 65px;
+		margin: 4px 0;
+		padding-top: 5px;
+		+ li {
+			margin-top: 20px;
+		}
+		.icon {
+		    width: 50px;
+		    height: 50px;
+		    font-size: 20px;
+		    border-radius: 50%;
+		    position: absolute;
+	        top: 4px;
+		    line-height: 50px;
+		    left: 0;
+		    text-align: center;
+		    &.yellow {
+		        background: $px-yellow;
+			    color: $px-white;
+			    box-shadow: 2px 3px 10px 0px rgba($px-yellow, 0.3);
+		    }
+
+		    &.blue {
+		        background: $px-blue;
+			    color: $px-white;
+			    box-shadow: 2px 3px 10px 0px rgba($px-blue, 0.3);
+		    }
+
+		    &.pink {
+		        background: $px-pink;
+			    color: $px-white;
+			    box-shadow: 2px 3px 10px 0px rgba($px-pink, 0.3);
+		    }
+
+		    &.green {
+		        background: $px-green;
+			    color: $px-white;
+			    box-shadow: 2px 3px 10px 0px rgba($px-green, 0.3);
+		    }
+		}
+		h6 {
+		    margin: 0 0 4px;
+			font-size: 18px;
+		}
+	}
+}
+
+.list-type-02 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+	    position: relative;
+		padding: 8px 0 8px 25px;
+		i {
+		    position: absolute;
+		    top: 13px;
+		    left: 0;
+		    color: $px-theme2nd;
+		}
+	}
+}
+
+
+.list-type-03 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+	    position: relative;
+		padding: 5px 0 5px 20px;
+		&:after {
+			content:"";
+			position: absolute;
+			top: 13px;
+			left: 0;
+			width: 8px;
+			height: 8px;
+			border-top: 1px solid $px-theme;
+			border-right: 1px solid $px-theme;
+			@include rotate(45);
+		}
+	}
+}
+
+.list-type-04 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+	    position: relative;
+		padding: 5px 0 5px 20px;
+		&:after {
+			content:"";
+			position: absolute;
+			top: 13px;
+			left: 0;
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			background: $px-theme;
+		}
+	}
+}
+
+.list-type-05 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+	    position: relative;
+		padding: 5px 0 5px 20px;
+		&:after {
+			content:"";
+			position: absolute;
+			top: 13px;
+			left: 0;
+			width: 8px;
+			height: 8px;
+			border-radius: 50%;
+			border:1px solid $px-theme;
+		}
+	}
+}
+
+.list-type-06 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+	    position: relative;
+		padding: 5px 0 5px 20px;
+		&:after {
+			content:"";
+			position: absolute;
+			top: 13px;
+			left: 0;
+			width: 8px;
+			height: 8px;
+			border:1px solid $px-theme;
+		}
+	}
+}
+
+
+.list-type-07 {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	li {
+	    position: relative;
+		padding: 5px 0 5px 20px;
+		&:after {
+			content:"";
+			position: absolute;
+			top: 13px;
+			left: 0;
+			width: 8px;
+			height: 8px;
+			background: $px-theme;
+		}
+	}
+}

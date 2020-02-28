@@ -1,0 +1,700 @@
+/*------------------
+*	Feature
+-------------------*/
+.feature-box {
+	box-shadow: 0px 3px 10px 0px rgba(38,59,94,0.1);
+    padding: 40px 10% 70px 10%;
+    background:$px-white;
+    border-radius: 10px 0px 10px 80px;
+    position: relative;
+    top: 0;
+    @include transition(ease all 0.55s);
+    &:hover {
+    	top:-10px;
+    	box-shadow: 0px 30px 60px 0px rgba(38,59,94,0.1);
+    }
+    .icon {
+        width: 90px;
+	    height: 90px;
+	    display: inline-block;
+	    line-height: 90px;
+	    text-align: center;
+	    background: #ffffff;
+	    border-radius: 5px 5px 5px 35px;
+	    font-size: 32px;
+	    margin: 0 0 40px;
+	    box-shadow: -6px 8px 10px 0px rgba($px-theme, 0.31);
+	}
+	h5 {
+	    font-size: 22px;
+	    margin: 0 0 20px;
+	    color: $px-dark;
+	}
+	p {
+		margin: 0;
+	}
+	.btn-bar {
+	    position: absolute;
+	    right: 0;
+	    bottom: 0;
+	    .m-btn-icon {
+	    	border-radius: 50% 50% 5px 50%;
+	    }
+	}
+}
+
+/*------------------
+*	Feature 02
+-------------------*/
+.feature-box-01 {
+	box-shadow: 0px 3px 10px 0px rgba(38,59,94,0.1);
+    padding: 40px 20px 70px 20px;
+    background:$px-white;
+    text-align: center; 
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    @include transition(ease all 0.55s);
+    &:hover {
+    	top:-10px;
+    	box-shadow: 0px 30px 60px 0px rgba(38,59,94,0.1);
+    }
+    .icon {
+	    width: 100px;
+	    height: 100px;
+	    display: inline-block;
+	    line-height: 100px;
+	    text-align: center;
+	    background: $px-white;
+	    border-radius: 50%;
+	    font-size: 36px;
+	    margin: 0 0 30px;
+	    box-shadow: -6px 8px 10px 0px rgba($px-theme, 0.31);
+	}
+	h5 {
+	    font-weight: 500;
+	    font-size: 20px;
+	    margin: 0 0 15px;
+	    color: $px-dark;
+	}
+	p {
+		font-size: 16px;
+    	margin: 0;
+	}
+	.btn-bar {
+        position: absolute;
+	    right: 0;
+	    bottom: -16px;
+	    left: 0;
+	}
+}
+
+/*------------------
+*	Feature Box 02
+-------------------*/
+.feature-box-02 {
+	.icon {
+	    -ms-flex: 0 0 60px;
+	    flex: 0 0 60px;
+	    max-width: 60px;
+	    i {
+	    	width: 60px;
+	    	height: 60px;
+	    	border-radius: 50%;
+	    	line-height: 60px;
+	    	font-size: 26px;
+	    	text-align: center;
+	    }
+	    &.yellow {
+	    	i {
+	    		color: $px-yellow;
+	    		background: lighten($px-yellow, 40%);
+	    	}
+	    }
+	    &.blue {
+	    	i {
+	    		color: $px-blue;
+	    		background: lighten($px-blue, 43%);
+	    	}
+	    }
+	    &.green {
+	    	i {
+	    		color: $px-green;
+	    		background: lighten($px-green, 43%);
+	    	}
+	    }
+	    &.pink {
+	    	i {
+	    		color: $px-pink;
+	    		background: lighten($px-pink, 40%);
+	    	}
+	    }
+	}
+	.feature-content {
+		padding-left: 25px;
+		h5 {
+		    font-size: 20px;
+			font-weight: 500;
+			color: $px-dark;
+		}
+		p {
+			font-size: 16px;
+			margin: 0;
+		}
+	}
+}
+
+/*------------------
+*	Feature box 3
+-------------------*/
+.feature-box-03 {
+	.feature-img {
+		overflow: hidden;
+		padding: 10px;
+		box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+		background: $px-white;
+	}
+	.feature-content {
+		padding: 25px;
+		background: $px-white;
+		box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+		margin: -45px 30px 20px;
+		position: relative;
+		z-index: 1;
+		h5 {
+		    font-size: 22px;
+			font-weight: 500;
+			color: $px-dark;
+			margin: 0 0 15px;
+		}
+		p {
+			margin: 0;
+		}	
+		.btn-bar {
+			padding-top: 15px;
+		}
+	}
+}
+
+/*------------------
+*	Feature box 4
+-------------------*/
+.feature-box-04 {
+	padding: 15% 12%;
+    box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+    position: relative;
+    @include transition(ease all 0.55s);
+    top: 0;
+    border-bottom: 5px solid transparent;
+    background: $px-white;
+	.icon {
+	    width: 100px;
+	    height: 100px;
+	    line-height: 100px;
+	    text-align: center;
+	    font-size: 35px;
+	    border-radius: 40% 60% 45% 55%/71% 67% 33% 29%;
+	    margin-bottom: 30px;
+	    border: 1px solid  currentcolor;
+	    display: inline-block;
+	    vertical-align: top;
+	    @include transition(ease all 0.30s);
+		&.yellow {
+    		color: $px-yellow;
+    		background: lighten($px-yellow, 40%);
+	    }
+	    &.blue {
+    		color: $px-blue;
+    		background: lighten($px-blue, 43%);
+	    }
+	    &.green {
+    		color: $px-green;
+    		background: lighten($px-green, 43%);
+	    }
+	    &.pink {
+    		color: $px-pink;
+    		background: lighten($px-pink, 40%);
+	    }
+	}
+
+	h5 {
+	    font-size: 20px;
+		color: $px-dark;
+		margin: 0;
+	}
+	p {	
+		margin: 15px 0 0;
+	}
+	.btn-bar {
+		margin-top: 20px;
+	}
+	&:hover {
+		top: -10px;
+		box-shadow: 0px 10px 30px 0px rgba(38, 59, 94, 0.1);
+		border-color: $px-theme;
+		.icon {
+			border-radius: 72% 28% 56% 44% / 29% 37% 63% 71% ;
+		}
+	}
+}
+
+/*------------------
+*	Feature box 5
+-------------------*/
+.feature-box-05 {
+	box-shadow: 0px 3px 10px 0px rgba(38,59,94,0.1);
+    padding: 40px 10%;
+    background:$px-white;
+    text-align: center; 
+    border-radius: 10px;
+    position: relative;
+    top: 0;
+    @include transition(ease all 0.55s);
+    &:hover {
+    	top:-10px;
+    	box-shadow: 0px 30px 60px 0px rgba(38,59,94,0.1);
+    }
+    .icon {
+	    width: 100%;
+	    display: inline-block;
+	    margin: 0 0 30px;
+	}
+	h5 {
+	    font-size: 24px;
+	    margin: 0 0 15px;
+	    color: $px-dark;
+	}
+	p {
+    	margin: 0;
+	}
+	.btn-bar {
+		padding-top: 25px;
+	}
+}
+
+/*------------------
+*	Feature box 6
+-------------------*/
+.feature-box-06 {
+	text-align: center;
+    padding: 50px 30px;
+    border: 2px solid rgb(255, 255, 255);
+    .icon {
+        width: 100%;
+	    display: inline-block;
+	    margin: 0 0 30px;
+	    font-size: 60px;
+	    line-height: 60px;
+	    font-weight: 600;
+	}
+	h5 {
+        font-size: 26px;
+	    margin: 0 0 20px;
+	    padding: 0 0 20px;
+	    position: relative;
+	    &:after {
+		    content: "";
+		    position: absolute;
+		    bottom: 0;
+		    left: 0;
+		    right: 0;
+		    width: 65px;
+		    background: #fff;
+		    height: 2px;
+		    margin: auto;
+	    }
+	}
+	p {
+    	margin: 0;
+	}
+}
+
+/*------------------
+*	Feature Box 07
+-------------------*/
+.feature-box-07 {
+	box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+    padding: 40px 8%;
+    background: $px-white;
+    border-bottom: 5px solid transparent;
+    @include transition(ease all 0.55s);
+    @include down-sm {
+    	padding: 30px 20px;
+    }
+	.icon {
+	    -ms-flex: 0 0 80px;
+	    flex: 0 0 80px;
+	    max-width: 80px;
+	    @include down-sm {
+	    	-ms-flex: 0 0 60px;
+		    flex: 0 0 60px;
+		    max-width: 60px;
+	    }
+	    i {
+	    	width: 80px;
+	    	height: 80px;
+	    	line-height: 80px;
+	    	font-size: 36px;
+	    	border-radius: 50%;
+	    	text-align: center;
+	    	background: $px-theme;
+	    	color: $px-white;
+	    	@include down-sm {
+	    		width: 60px;
+		    	height: 60px;
+		    	line-height: 60px;
+		    	font-size: 28px;
+	    	}
+	    }
+	}
+	.feature-content {
+		padding-left: 25px;
+		@include down-sm {
+			padding-left: 15px;
+		}
+		h5 {
+		    font-size: 22px;
+			font-weight: 500;
+			color: $px-dark;
+			margin: 0 0 15px;
+			@include down-sm {
+				font-size: 18px;
+				margin: 0 0 10px;
+			}
+		}
+		p {
+			margin: 0;
+		}
+	}
+	&:hover {
+		box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+		border-bottom-color: $px-theme;
+	}
+}
+
+/*------------------
+*	Feature Box 08
+-------------------*/
+.feature-box-08 {
+	box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+    padding: 40px 8%;
+    background: $px-white;
+    border-bottom: 5px solid transparent;
+    @include transition(ease all 0.55s);
+    @include down-sm {
+    	padding: 30px 20px;
+    }
+	.icon {
+        width: 100px;
+	    height: 100px;
+	    line-height: 100px;
+	    font-size: 50px;
+	    text-align: center;
+	    color: $px-theme;
+	    position: relative;
+	    z-index: 1;
+	    img {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    z-index: -1;
+	    }
+	}
+	.feature-content {
+		h5 {
+			font-size: 18px;
+			font-weight: 500;
+			color: $px-dark;
+			margin: 0 0 15px;
+		}
+		p {
+			margin: 0;
+		}
+	}
+	&:hover {
+		box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+		border-bottom-color: $px-theme;
+	}
+}
+
+/*------------------
+*	Feature Box 08
+-------------------*/
+.feature-box-09 {
+    padding: 40px 27px;
+    text-align: center;
+    background: $px-white;
+    border-bottom: 5px solid transparent;
+        box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+    @include transition(ease all 0.55s);
+	.icon {
+	    width: 150px;
+	    height: 150px;
+	    text-align: center;
+	    position: relative;
+	    z-index: 1;
+	    display: inline-block;
+	    img {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    right: 0;
+		    bottom: 0;
+		    margin: auto;
+		    max-width: 100%;
+		    max-height: 100%;
+	    }
+	}
+	.feature-content {
+		.no {
+			position: relative;
+			margin: 10px 0 25px;
+			&:after {
+			    content: "";
+			    position: absolute;
+			    top: 0;
+			    left: 0;
+			    right: 0;
+			    bottom: 0;
+			    height: 1px;
+			    background: #ddd;
+			    margin: auto;
+			}
+			label {
+			    width: 50px;
+			    height: 50px;
+			    line-height: 50px;
+			    border-radius: 50%;
+			    background: $px-theme;
+			    color: $px-white;
+			    display: inline-block;
+			    vertical-align: top;
+			    position: relative;
+			    margin: 0;
+			    font-size: 22px;
+			    z-index: 1;
+			}
+		}
+		h5 {
+		    font-size: 22px;
+			color: $px-dark;
+			margin: 0 0 15px;
+		}
+		p {
+			margin: 0;
+		}
+	}
+	&:hover {
+		box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+		border-bottom-color: $px-theme;
+	}
+}
+
+/*------------------
+*	Flow Chart
+-------------------*/
+.flow-section {
+	.flow-col-in {
+        box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+	    position: relative;
+        padding: 35px;
+		margin: 0 8%;
+	    background: #ffffff;
+	    z-index: 1;
+	    @include rotate(7);
+	    border-radius: 10px 10px 80px 10px;
+	    @include transition(ease all 0.55s);
+	    
+	    @include down-md {
+	    	@include rotate(0);
+	    	margin: 35px 10%;
+	    }
+
+	    &:hover {
+	    	box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+	    }
+	    .icon {
+	    	width: 70px;
+		    height: 70px;
+		    line-height: 70px;
+		    background: #fff;
+		    text-align: center;
+		    box-shadow: -6px 8px 10px 0px rgba(103, 84, 226, 0.31);
+		    font-size: 28px;
+		    color: $px-theme;
+		    border-radius: 0;
+		    margin-bottom: 30px;
+	    }
+		h4 {
+			color: $px-dark;
+			font-size: 20px;
+			margin: 0 0 10px;
+		}
+		p {
+			margin: 0;
+		}
+	}
+
+	@include up-md {
+		.flow-col {
+			position: relative;
+			&:before {
+			    content: "";
+			    width: 13px;
+			    height: 13px;
+			    background: $px-theme2nd;
+			    position: absolute;
+			    margin: auto;
+			    top: 0;
+			    bottom: 0;
+			    border-radius: 50%;
+			    box-shadow: 0px 0px 0 6px rgba($px-theme2nd, 0.18);
+			    z-index: 1;
+			}
+			&:after {
+			    height: 1px;
+			    width: 100%;
+			    top: 0;
+			    bottom: 0;
+			    left: 0;
+			    right: 0;
+			    margin: auto;
+			    border-top: 1px dashed #e0e0e0;
+			    content: "";
+			    position: absolute;
+			}
+			&.flow-col-left {
+				&:before {
+					right: -6px;
+				}
+			}
+			&.flow-col-right {
+				&:before {
+					left: -6px;
+				}
+			}
+		}
+
+		.flow-row-1st {
+		    padding-bottom: 60px;
+			position: relative;
+			&:after {
+		        content: "";
+			    position: absolute;
+			    bottom: 0;
+			    left: 50%;
+			    right: 0;
+			    top: calc(50% - 30px);
+			    border: 1px dashed #e0e0e0;
+			    border-left: none;
+			    border-top: none;
+			    border-radius: 0 0 10px 0;
+			}
+		}
+
+		.flow-row-2nd {
+		    padding-top: 60px;
+			position: relative;
+			&:after {
+			    content: "";
+			    position: absolute;
+			    top: -1px;
+			    left: 0px;
+			    right: 50%;
+			    bottom: calc(50% - 30px);
+			    border: 1px dashed #e0e0e0;
+			    border-right: none;
+			    border-bottom: none;
+			    border-radius: 10px 0 0 0;
+			}
+		}
+	}
+
+	@include down-md {
+		.flow-row {
+			position: relative;
+			&:after {
+				content:"";
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				margin: auto;
+				width: 1px;
+				border-left: 1px dashed #e0e0e0;
+			}
+			.flow-col {
+				&:before {
+				    background: $px-theme2nd;
+				    box-shadow: 0px 0px 0 6px rgba($px-theme2nd, 0.18);
+			        content: "";
+				    width: 13px;
+				    height: 13px;
+				    position: absolute;
+				    top: -4px;
+				    border-radius: 50%;
+				    z-index: 1;
+				    left: 0;
+				    right: 0;
+				    margin: auto;
+				}
+			}
+		}
+	}
+}
+
+/*------------------
+*	Side Feature
+-------------------*/
+.side-feature {
+	.sf-icon {
+    	width: 80px;
+    	height: 80px;
+    	border-radius: 50%;
+    	line-height: 80px;
+    	font-size: 25px;
+    	text-align: center;
+    	border-radius: 40% 60% 45% 55%/71% 67% 33% 29%;
+    	border: 1px solid currentcolor;
+    	margin-bottom: 30px;
+	    &.yellow {
+    		color: $px-yellow;
+    		background: lighten($px-yellow, 40%);
+	    }
+	    &.blue {
+    		color: $px-blue;
+    		background: lighten($px-blue, 43%);
+	    }
+	    &.green {
+    		color: $px-green;
+    		background: lighten($px-green, 43%);
+	    }
+	    &.pink {
+    		color: $px-pink;
+    		background: lighten($px-pink, 40%);
+	    }
+	}
+	label {
+		@include down-sm {
+			font-size: 14px;
+		}
+	}
+	.large {
+	    line-height: 32px;
+	    font-size: 18px;
+	}
+
+	h2 {
+		color: $px-dark;
+	    margin: 0 0 20px;
+	    font-size: 36px;
+		span {
+			color: $px-theme;
+		}
+		@include down-sm {
+			margin: 0 0 15px;
+			font-size: 24px;
+		}
+	}
+}

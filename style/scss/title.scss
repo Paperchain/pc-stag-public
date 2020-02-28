@@ -1,0 +1,107 @@
+/* ----------------------
+*	Small Title
+---------------------------*/
+.sm-title {
+	text-align: center;
+	h4 {
+		margin: 0;
+		padding: 0 0 20px;
+		position: relative;
+		font-size: 22px;
+		font-weight: 600;
+		&:after {
+			content:"";
+			width: 40px;
+			height: 3px;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			margin: auto;
+			background: currentColor;
+			opacity: 0.8;
+			position: absolute;
+		}
+	}
+	p {
+		margin: 25px 0 0;
+		font-size: 15px;
+	}
+}
+
+/* ----------------------
+*	Section title
+---------------------------*/
+.section-title {
+	.st-help-text {
+	    color: $px-theme;
+	    text-transform: uppercase;
+	    line-height: normal;
+	    font-size: 16px;
+	    margin: 0 0 15px;
+	}
+	.icon {
+		width: 70px;
+		height: 70px;
+		line-height: 70px;
+		font-size: 25px;
+		border-radius: 50%;
+		color: $px-yellow;
+		background: lighten($px-yellow, 35%);
+		display: inline-block;
+		vertical-align: top;
+		margin: 0 0 30px;
+	}
+	h2 {
+		font-size: 48px;
+        margin: 0 0 20px;
+	    padding: 0 0 20px;
+	    position: relative;
+	    font-weight: 500;
+	    color: $px-dark;
+	    &:after {
+		    content: "";
+		    position: absolute;
+		    bottom: 0;
+		    left: 0;
+		    right: 0;
+		    width: 50px;
+		    background: $px-theme;
+		    height: 3px;
+		    margin: auto;
+	    }
+	    &.white-color {
+	    	color: $px-white;
+	    	&:after {
+	    		background:$px-white;
+	    	}
+	    }
+		span {
+			color: $px-theme;
+			font-weight: 600;
+		}
+		@include down-md {
+			font-size: 38px;
+		}
+		@include down-sm {
+			font-size: 28px;
+		}
+	}
+	p {
+		margin: 15px 0 0;
+		font-size: 18px;
+		line-height: 32px;
+	}
+}
+
+/* ----------------------
+*	Sub Title
+---------------------------*/
+.sub-title {
+	h3 {
+	    font-size: 23px;
+	    margin: 0 0 25px;
+	    padding: 0 0 15px;
+	    border-bottom: 1px solid #ddd;
+	    font-weight: 500;
+	}
+}

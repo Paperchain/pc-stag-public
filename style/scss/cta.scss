@@ -1,0 +1,28 @@
+.cta-section-01 {
+	.cta-padding {
+		padding: 10px 30px;
+	}
+	.cta-border {
+		border:1px solid #ddd;
+	}
+	h3 {
+		font-size: 32px;
+		margin: 0;
+	}
+	h2 {
+		font-size: 42px;
+		margin: 0;
+	}
+	p {
+		margin: 5px 0 0;
+		&.large {
+			margin: 15px 0 0;
+			font-size: 20px;
+		}
+	}
+	.m-btn {
+		+ .m-btn {
+			margin-left: 10px;
+		}
+	}
+}

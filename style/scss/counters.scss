@@ -1,0 +1,28 @@
+.counter-col-01 {
+	text-align: center;
+	.count {
+		font-size: 60px;
+		color: $px-theme;
+		line-height: 60px;
+		margin-bottom: 15px;
+	}
+	h6 {
+		font-size: 20px;
+		margin: 0;
+	}
+}
+
+.counter-col-02 {
+	text-align: center;
+	.count {
+		font-size: 60px;
+		color: $px-white;
+		line-height: 60px;
+		margin-bottom: 15px;
+	}
+	h6 {
+		font-size: 20px;
+		margin: 0;
+		color:rgba($px-white, 0.8);
+	}
+}

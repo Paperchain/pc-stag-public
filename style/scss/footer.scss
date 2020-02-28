@@ -1,0 +1,168 @@
+.footer-one {
+	background: $px-gray;
+
+	.footer-top {
+		padding: 80px 0;
+		border-bottom: 1px solid rgba($px-black, 0.10);
+		@include down-md {
+			padding: 60px 0;
+		}
+		@include down-sm {
+			padding: 35px 0;
+		}
+	}
+	
+	.footer-about {
+		padding-right: 25px;
+		.fot-logo {
+			padding-bottom: 25px;
+		}
+	}
+	.fot-icon {
+		margin: 0;
+		padding: 5px 0 0;
+		list-style: none;
+		li {
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 5px;
+			a {
+				width: 35px;
+				height: 35px;
+				line-height: 35px;
+				color: rgba($px-black, 0.42);
+				border: 1px solid rgba($px-black, 0.42);
+				border-radius: 3px;
+				text-align: center;
+				display: block;
+				font-size: 16px;
+				&:hover {
+					color: $px-white;
+					background: $px-theme;
+					border-color: $px-theme;
+				}
+			}
+		}
+	}
+
+	.fot-title {
+		font-size: 22px;
+		color: $px-dark;
+		margin: 0 0 20px;
+	}
+	.footer-link {
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		li {
+			display: inline-block;
+			vertical-align: top;
+			width: 100%;
+			margin-bottom: 12px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+			a {
+			    color: $px-body-color;
+			    text-decoration: none;
+			    display: inline-block;
+				&:hover {
+					color:$px-theme;
+				}
+			}
+		}
+	}
+	.footer-info {
+		address {
+			margin-bottom: 0;
+		}
+		p {
+		    margin: 0;
+		    &.address {
+		    	margin-bottom: 12px;
+		    }
+		    a {
+		    	font-size: 20px;
+		    }
+		}
+	}
+
+	.footer-bottom {
+		padding: 25px 0;
+		p {
+			margin: 5px 0;
+		}
+		ul {
+			margin: 5px 0;
+			padding: 0;
+			display: inline-block;
+			vertical-align: top;
+			li {
+				display: inline-block;
+				vertical-align: middle;
+				margin-left: 15px;
+			}
+		}
+		a {
+			color: $px-body-color;
+		    text-decoration: none;
+		    display: inline-block;
+		    &:hover {
+				color:$px-theme;
+			}
+		}
+	}
+
+	/*Dark Footer*/
+	&.footer-dark {
+		background: #081526;
+		.footer-top {
+			    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		}
+		.fot-title {
+			color: $px-white;
+		}
+		p {
+			color: rgba(255,255,255,.4);
+		}
+		.footer-info {
+			p {
+			 	a {
+			 		color: rgba(255,255,255,.4);
+			 		&:hover {
+						color:rgba(255,255,255,.8);
+					}
+			 	}
+			}
+		}
+		.fot-icon {
+			li {
+			 	a {
+		 		    color: #fff;
+					border: 1px solid rgba(255, 255, 255, 0.42);
+			 	}
+			}
+		}
+		.footer-link {
+			li{
+				a {
+					color: rgba(255,255,255,.4);
+					&:hover {
+						color:rgba(255,255,255,.8);
+					}
+				}
+			}
+		}
+
+		.footer-bottom {
+			a {
+				color: rgba(255,255,255,.4);
+				&:hover {
+					color:rgba(255,255,255,.8);
+				}
+			}
+		}
+	}
+}

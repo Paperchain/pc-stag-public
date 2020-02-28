@@ -1,0 +1,245 @@
+/*------------------
+*	Our Team
+-------------------*/
+.our-team {
+    padding: 30px 18px;
+    text-align: center;
+    box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+    border-radius: 5px;
+    background: $px-white;
+    @include transition(ease all 0.55s);
+    &:hover {
+    	box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+    }
+	.team-img {
+		width: 150px;
+		height: 150px;
+		overflow: hidden;
+		border-radius: 50%;
+		display: inline-block;
+		vertical-align: top;
+		margin-bottom: 25px;
+	}
+	.team-info {
+		h6 {
+			font-size: 20px;
+			color: $px-dark;
+			margin: 0; 
+		}
+		label {
+			font-size: 15px;
+		    line-height: normal;
+		    margin: 10px 0 15px;
+		    opacity: 0.8;
+			color: $px-dark;
+		}
+		p {
+			margin: 0;
+		}
+		.team-icon {
+			margin: 0;
+			padding: 20px 0 0;
+			list-style: none;
+			li {
+				display: inline-block;
+				vertical-align: middle;
+				padding: 0 10px;
+				a {
+					display: block;
+				}
+			}
+		}
+	}
+}
+
+/*------------------
+*	Our Team
+-------------------*/
+.our-team-01 {
+    text-align: center;
+    box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+    border-radius: 5px;
+    background: $px-white;
+    position: relative;
+    overflow: hidden;
+	.team-info {
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    left: 0;
+	    right: 0;
+	    z-index: 1;
+	    * {
+	    	position: relative;
+	    	top: -20px;
+	    	opacity: 0;
+	    	@include transition-delay(0.55s);
+	    	@include transition(cubic-bezier(0.47, 0, 0.75, 0.72) all 0.55s);
+	    }
+	    &:after {
+	    	content:"";
+	    	position: absolute;
+	    	bottom: 0;
+	    	left: 0;
+	    	right: 0;
+	    	height: 0;
+	    	background: rgba($px-theme, 0.8);
+	    	z-index: -1;
+	    	@include transition(cubic-bezier(0.47, 0, 0.75, 0.72) all 0.45s);
+	    }
+		h6 {
+			font-size: 20px;
+			color: $px-white;
+			margin: 0; 
+		}
+		label {
+			font-size: 14px;
+		    line-height: normal;
+		    margin: 15px 0;
+		    color: rgba($px-white, 0.40);
+			color: $px-white;
+		}
+		p {
+			margin: 0;
+			color: rgba($px-white, 0.80);
+		}
+		.team-icon {
+			margin: 0;
+			padding: 15px 0 0;
+			list-style: none;
+			li {
+				display: inline-block;
+				vertical-align: middle;
+				padding: 0 10px;
+				a {
+					display: block;
+					color: $px-white;
+				}
+			}
+		}
+	}
+	&:hover {
+		.team-info {
+			* {
+				opacity: 1;
+				top: 0;
+			}
+			&:after {
+				height:100%;
+			}
+		}
+	}
+}
+
+/*------------------
+*	Our Team
+-------------------*/
+.our-team-02 {
+    text-align: center;
+    box-shadow: 0px 3px 10px 0px rgba(38, 59, 94, 0.1);
+    border-radius: 5px;
+    background: $px-white;
+    position: relative;
+    overflow: hidden;
+    .team-top {
+    	position: relative;
+    }
+    .team-img {
+	    overflow: hidden;
+		border-radius: 0 0 100px 0px;
+    }
+    .team-icon {
+	    margin: 0;
+	    padding: 0;
+	    list-style: none;
+	    position: absolute;
+	    bottom: -10px;
+	    right: 0;
+		li {
+			display: inline-block;
+			vertical-align: middle;
+			padding: 0 2px;
+			position: relative;
+			&:nth-child(2) {
+			    top: -10px;
+				right: -4px;
+			}
+			&:nth-child(3) {
+			    top: -35px;
+			}
+			a {
+				display: block;
+				color: $px-white;
+				width: 35px;
+				height: 35px;
+				line-height: 35px;
+				border-radius: 50%;
+				background:$px-theme2nd;
+			}
+		}
+	}
+	.team-info {
+		padding: 30px 20px;
+		text-align: left;
+		h6 {
+			font-size: 20px;
+			color: $px-dark;
+			margin: 0; 
+		}
+		label {
+			font-size: 16px;
+		    line-height: normal;
+		    margin: 10px 0 0;
+		}
+	}
+}
+
+/*------------------
+*	Our Team
+-------------------*/
+.our-team-03 {
+    background: $px-white;
+    @include transition(ease all 0.55s);
+    &:hover {
+    	box-shadow: 0px 30px 60px 0px rgba(38, 59, 94, 0.1);
+    	img {
+    		filter: gray;
+	-webkit-filter: grayscale(1); 
+			filter: grayscale(1);
+    	}
+    }
+    .team-img {
+    	padding: 20px;
+    }
+	.team-info {
+		padding: 0 20px 25px;
+		text-align: center;
+		h6 {
+			font-size: 20px;
+			color: $px-dark;
+			margin: 0; 
+		}
+		label {
+			font-size: 16px;
+		    line-height: normal;
+		    margin: 10px 0 0;
+		}
+		.team-icon {
+			margin: 0;
+			padding: 15px 0 0;
+			list-style: none;
+			li {
+				display: inline-block;
+				vertical-align: middle;
+				padding: 0 10px;
+				a {
+					display: block;
+					color: $px-body-color;
+					&:hover {
+						color:$px-theme;
+					}
+				}
+			}
+		}
+	}
+}
