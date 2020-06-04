@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Get Paperchain — real-time revenue analytics for the music industry.</title>
+    <title>Get Paperchain — the easiest and fastest way for creators to access their streaming revenue..</title>
     <link>https://paperchain.io/</link>
-    <description>Recent content on Get Paperchain — real-time revenue analytics for the music industry.</description>
+    <description>Recent content on Get Paperchain — the easiest and fastest way for creators to access their streaming revenue..</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 17 Sep 2019 16:51:15 +1000</lastBuildDate>
@@ -22,20 +22,11 @@
     </item>
     
     <item>
-      <title>404 — Uh Oh! We couldn&#39;t find that page.</title>
-      <link>https://paperchain.io/404/</link>
+      <title>About us — Paperchain</title>
+      <link>https://paperchain.io/about-us/</link>
       <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
       
-      <guid>https://paperchain.io/404/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>About Us — Learn more about Paperchain</title>
-      <link>https://paperchain.io/about/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/about/</guid>
+      <guid>https://paperchain.io/about-us/</guid>
       <description></description>
     </item>
     
@@ -59,47 +50,29 @@
     </item>
     
     <item>
-      <title>FAQ — Learn more about Paperchain</title>
-      <link>https://paperchain.io/faq/</link>
+      <title>Creator advances by Paperchain</title>
+      <link>https://paperchain.io/creator-advances/</link>
       <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
       
-      <guid>https://paperchain.io/faq/</guid>
+      <guid>https://paperchain.io/creator-advances/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Featured Articles on Paperchain</title>
+      <title>Creator advances by Paperchain</title>
+      <link>https://paperchain.io/terms-of-service/</link>
+      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
+      
+      <guid>https://paperchain.io/terms-of-service/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>In the News — Paperchain</title>
       <link>https://paperchain.io/press/in-the-news/</link>
       <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
       
       <guid>https://paperchain.io/press/in-the-news/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Get Paperchain — faster growth capital for digital media companies using real-time sales data</title>
-      <link>https://paperchain.io/music/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/music/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Get Paperchain — faster growth capital for digital media companies using real-time sales data.</title>
-      <link>https://paperchain.io/a/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/a/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Get Paperchain — faster growth capital for digital media companies using real-time sales data.</title>
-      <link>https://paperchain.io/b/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/b/</guid>
       <description></description>
     </item>
     
@@ -132,6 +105,24 @@
     </item>
     
     <item>
+      <title>Paperchain for artists, creators &amp; managers</title>
+      <link>https://paperchain.io/artists-creators-managers/</link>
+      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
+      
+      <guid>https://paperchain.io/artists-creators-managers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Paperchain for record labels and distributors</title>
+      <link>https://paperchain.io/labels-distributors/</link>
+      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
+      
+      <guid>https://paperchain.io/labels-distributors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Paperchain founders taking part in the European Innovation Academy Extreme Entrepreneurship program in Portugal</title>
       <link>https://paperchain.io/press/releases/paperchain-european-innovation-academy/</link>
       <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
@@ -154,43 +145,7 @@ The program is held just before the Les Ardentes Festival and is carried out by 
     </item>
     
     <item>
-      <title>Paperchain | Welcome</title>
-      <link>https://paperchain.io/welcome-analytics/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/welcome-analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paperchain | Welcome</title>
-      <link>https://paperchain.io/welcome/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/welcome/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paperchain — faster growth capital for digital media companies using real-time sales data.</title>
-      <link>https://paperchain.io/analytics/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/analytics/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Paperchain — faster growth capital for digital media companies using real-time sales data.</title>
-      <link>https://paperchain.io/finance/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/finance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Press Release from Paperchain</title>
+      <title>Press releases — Paperchain</title>
       <link>https://paperchain.io/press/releases/</link>
       <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
       
@@ -199,16 +154,7 @@ The program is held just before the Les Ardentes Festival and is carried out by 
     </item>
     
     <item>
-      <title>Press Release from Paperchain</title>
-      <link>https://paperchain.io/releases/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/releases/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Press resources on Paperchain</title>
+      <title>Press — Paperchain</title>
       <link>https://paperchain.io/press/</link>
       <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
       
@@ -226,47 +172,11 @@ The program is held just before the Les Ardentes Festival and is carried out by 
     </item>
     
     <item>
-      <title>Reserve</title>
-      <link>https://paperchain.io/reserve/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/reserve/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terms of Service — Paperchain</title>
-      <link>https://paperchain.io/terms-of-service/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/terms-of-service/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Terms of Use — Paperchain</title>
-      <link>https://paperchain.io/terms-of-use/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/terms-of-use/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thanks for Submitting — We&#39;ll be in touch</title>
+      <title>Thanks you from the Paperchain team</title>
       <link>https://paperchain.io/form-submit/</link>
       <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
       
       <guid>https://paperchain.io/form-submit/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Thanks for connecting your data!</title>
-      <link>https://paperchain.io/onboarding/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/onboarding/</guid>
       <description></description>
     </item>
     
