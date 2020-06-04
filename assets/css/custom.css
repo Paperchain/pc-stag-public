@@ -142,20 +142,24 @@
 .gray-logo{
   max-width:100%;
   filter: grayscale(100%);
+  height:auto;
 }
 
 .logo{
   max-width:70%;
+  height:auto;
 }
 
 .alt-color-logo{
   max-width:100%;
   filter: grayscale(100%);
+  height:auto;
 }
 
 .data-logo{
   max-width:100%;
   padding:30px;
+  height:auto;
 }
 
 .footer-logo{
