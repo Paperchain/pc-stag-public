@@ -6,8 +6,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Get Paperchain — the fastest way for artists, creators & record labels to access streaming revenue.</title>
+        <meta name="author" content="Paperchain" />
+        <title>Get Paperchain — the easiest and fastest way for creators to access their streaming revenue..</title>
         <link href="/assets/css/styles.css" rel="stylesheet" />
         <link href="/assets/css/custom.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -27,6 +27,65 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-WDGVKFD');</script>
         
+
+        <script>
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+</script>
     </head>
     <body>
       
@@ -59,7 +118,7 @@
                             <li class="nav-item"><a class="nav-link" href="/#benefits">Benefits</a></li>
                             <li class="nav-item"><a class="nav-link" href="/about-us">About us </a></li>
                         </ul>
-<a class="typeform-share button btn-white btn rounded-pill px-4 ml-lg-4" href="https://paperchain-tf.typeform.com/to/KHZyDh" data-mode="popup" data-hide-footer=true target="_blank">Request access<i class="fas fa-arrow-right ml-1"></i></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+<a class="typeform-share button typeform-share button btn-white btn rounded-pill px-4 ml-lg-4" href="https://paperchain-tf.typeform.com/to/KHZyDh" data-mode="popup" data-hide-footer=true target="_blank">Request access<i class="fas fa-arrow-right ml-1"></i></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                     </div>
                 </div>
             </nav>
@@ -67,11 +126,10 @@
 
                     <header class="page-header page-header-neon-green bg-gradient-green-to-light">
                         <div class="page-header-content pt-10">
-                            <div class="container">
+                            <div class="container" style="min-height:50vh">
                                 <div class="row align-items-center">
                                     <div class="col-lg-12" data-aos="fade-up">
-                                        <h1 class="page-header-title mb-5">Faster payments for
-                             <span
+                                        <h1 class="page-header-title mb-5">Faster payments for <span
                                 class="txt-rotate"
                               style="color:#0061f2"
                                 data-period="500"
@@ -206,7 +264,7 @@
                                         </div>
                                         <div class="col-md-12 mb-4">
                                             <h3>5. That’s it!</h3>
-                                            <p class="small mb-0">When we receive the payment from your distributor or label, Paperchain recoups what it already advanced to you. Any money not advanced automatically paid to your bank account.</p>
+                                            <p class="small mb-0">When we receive the payment from your distributor or label, Paperchain recoups what it already advanced to you. Any money not advanced is automatically paid to your bank account.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -306,7 +364,8 @@
                                   <h4 class="text-primary">Ready to get started?</h4>
                                   <p class="lead mb-0">Create your account now!</p>
                               </div>
-                              <div class="col-lg-6 text-lg-right"><a class="typeform-share button btn-white btn rounded-pill px-4 ml-lg-4" href="https://paperchain-tf.typeform.com/to/KHZyDh" data-mode="popup" data-hide-footer=true target="_blank">Request access<i class="fas fa-arrow-right ml-1"></i></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                              <div class="col-lg-6 text-lg-right">
+                                <a class="typeform-share button typeform-share button btn-white btn rounded-pill px-4 ml-lg-4" href="https://paperchain-tf.typeform.com/to/KHZyDh" data-mode="popup" data-hide-footer=true target="_blank">Request access<i class="fas fa-arrow-right ml-1"></i></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                           </div>
                       </div>
                     </section>
@@ -348,9 +407,9 @@
                         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                           <div class="text-uppercase-expanded text-xs mb-4">Product</div>
                           <ul class="list-unstyled mb-0">
-                              <li class="mb-2"><a href="#product">What is Paperchain</a></li>
-                              <li class="mb-2"><a href="#how-it-works">How it works</a></li>
-                              <li class="mb-2"><a href="#benefits">Benefits</a></li>
+                              <li class="mb-2"><a href="/#product">What is Paperchain</a></li>
+                              <li class="mb-2"><a href="/#how-it-works">How it works</a></li>
+                              <li class="mb-2"><a href="/#benefits">Benefits</a></li>
                           </ul>
                         </div>
                         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">

@@ -4,9 +4,9 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Get Paperchain — the fastest way for artists, creators & record labels to access streaming revenue.</title>
+        <meta name="description" content="Paperchain, a global music technology company, is aiming to solve the music industry’s problem of unpaid royalties by going after the growing amount of unidentified copyright owners." />
+        <meta name="author" content="Paperchain" />
+        <title>London-based startup Paperchain to tackle $2.5bn in music royalty black boxes from 46m NOI filings to US Copyright Office</title>
         <link href="/assets/css/styles.css" rel="stylesheet" />
         <link href="/assets/css/custom.css" rel="stylesheet" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -26,6 +26,65 @@
         'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-WDGVKFD');</script>
         
+
+        <script>
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+</script>
     </head>
     <body>
       
@@ -58,7 +117,7 @@
                             <li class="nav-item"><a class="nav-link" href="/#benefits">Benefits</a></li>
                             <li class="nav-item"><a class="nav-link" href="/about-us">About us </a></li>
                         </ul>
-<a class="typeform-share button btn-white btn rounded-pill px-4 ml-lg-4" href="https://paperchain-tf.typeform.com/to/KHZyDh" data-mode="popup" data-hide-footer=true target="_blank">Request access<i class="fas fa-arrow-right ml-1"></i></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+<a class="typeform-share button typeform-share button btn-white btn rounded-pill px-4 ml-lg-4" href="https://paperchain-tf.typeform.com/to/KHZyDh" data-mode="popup" data-hide-footer=true target="_blank">Request access<i class="fas fa-arrow-right ml-1"></i></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
                     </div>
                 </div>
             </nav>
@@ -164,9 +223,9 @@ tniesvizky@paperchain.io</p>
                         <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
                           <div class="text-uppercase-expanded text-xs mb-4">Product</div>
                           <ul class="list-unstyled mb-0">
-                              <li class="mb-2"><a href="#product">What is Paperchain</a></li>
-                              <li class="mb-2"><a href="#how-it-works">How it works</a></li>
-                              <li class="mb-2"><a href="#benefits">Benefits</a></li>
+                              <li class="mb-2"><a href="/#product">What is Paperchain</a></li>
+                              <li class="mb-2"><a href="/#how-it-works">How it works</a></li>
+                              <li class="mb-2"><a href="/#benefits">Benefits</a></li>
                           </ul>
                         </div>
                         <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
