@@ -377,3 +377,8 @@ body {
 .ul-sub-style {
     list-style: none;
 }
+
+.agreement-text{
+  color:#242a3f;
+  font-size:2.5vh;
+}

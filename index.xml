@@ -37,15 +37,6 @@
     </item>
     
     <item>
-      <title>Cookie Statement — Paperchain</title>
-      <link>https://paperchain.io/cookies/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/cookies/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Creator advances by Paperchain</title>
       <link>https://paperchain.io/creator-advances/</link>
       <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
@@ -139,12 +130,13 @@ The program is held just before the Les Ardentes Festival and is carried out by 
     </item>
     
     <item>
-      <title>Paperchain Terms of Use</title>
+      <title>Paperchain Wallet Service</title>
       <link>https://paperchain.io/terms-of-use/</link>
       <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
       
       <guid>https://paperchain.io/terms-of-use/</guid>
-      <description></description>
+      <description>Welcome! We’re excited you have decided to use our platform and related wallet services, which we will refer to as “Services.”
+These Terms of Service (which we’ll call “Terms”) should tell you everything you need to know, and everything we must tell you by law, regarding your initial use of our Services. These Terms are effective beginning when you sign up for our Service and end when your Service is terminated.</description>
     </item>
     
     <item>
@@ -162,15 +154,6 @@ The program is held just before the Les Ardentes Festival and is carried out by 
       <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
       
       <guid>https://paperchain.io/press/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Privacy Policy — Paperchain</title>
-      <link>https://paperchain.io/privacy-policy/</link>
-      <pubDate>Mon, 10 Dec 2018 16:51:15 +1000</pubDate>
-      
-      <guid>https://paperchain.io/privacy-policy/</guid>
       <description></description>
     </item>
     
@@ -199,6 +182,16 @@ The program is held just before the Les Ardentes Festival and is carried out by 
       
       <guid>https://paperchain.io/404/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Privacy Policy — Paperchain</title>
+      <link>https://paperchain.io/privacy-policy/</link>
+      <pubDate>Sun, 10 Jun 2018 16:51:15 +1000</pubDate>
+      
+      <guid>https://paperchain.io/privacy-policy/</guid>
+      <description>Last updated June 07, 2021 We take privacy seriously.
+If you visit any of Paperchain websites, download or use the Paperchain App or our Services, Paperchain will ask for, collect, and store personal information about you (your “Personal Data”). We would not be able to provide our Services to you without the Personal Data you provide us, which is why we want you to know that we take our responsibility to protect your Personal Data very seriously.</description>
     </item>
     
   </channel>
