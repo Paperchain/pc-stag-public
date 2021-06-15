@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="You agree to the E-sign Consent agreement" />
+        <meta name="author" content="Paperchain" />
+        <title>E-sign Consent — Paperchain</title>
+        <link href="/assets/css/styles.css" rel="stylesheet" />
+        <link href="/assets/css/custom.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png" />
+        <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+        <script src="https://malsup.github.io/jquery.form.js"></script>
+        
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WDGVKFD');</script>
+        
+
+        <script>
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+</script>
+    </head>
+    <body>
+      
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WDGVKFD"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      
+
+<div id="layoutDefault">
+    <div id="layoutDefault_content">
+        <main>
+            <nav class="navbar navbar-marketing navbar-expand-lg bg-transparent navbar-light fixed-top">
+                <div class="container-fluid">
+                  <a href="/">
+                    <svg
+            class="menu__logo-img"
+            xmlns="http://www.w3.org/2000/svg"
+            width="200"
+            height="80"
+            viewBox="0 0 548.09 115"
+          >
+            <g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M2.56,43.27h9.83v7.15a22.59,22.59,0,0,1,5.84-5.69A15.43,15.43,0,0,1,27,42.38a19.54,19.54,0,0,1,7.35,1.46,18.53,18.53,0,0,1,6.37,4.31,21.81,21.81,0,0,1,4.47,7,24.87,24.87,0,0,1,1.7,9.49v.17a25.27,25.27,0,0,1-1.67,9.49,21,21,0,0,1-4.46,7,19,19,0,0,1-6.37,4.3A19.43,19.43,0,0,1,27,87a16,16,0,0,1-8.85-2.27,22.57,22.57,0,0,1-5.76-5.28V99.12H2.56ZM24.65,78.5a11.69,11.69,0,0,0,4.74-1,11.82,11.82,0,0,0,3.9-2.72,12.69,12.69,0,0,0,2.64-4.3,16,16,0,0,0,1-5.72v-.17a15.75,15.75,0,0,0-1-5.64,13.18,13.18,0,0,0-2.64-4.34,11.76,11.76,0,0,0-8.64-3.74,12,12,0,0,0-4.79,1,11.56,11.56,0,0,0-4,2.8A14,14,0,0,0,13.16,59a14.81,14.81,0,0,0-1,5.6v.17a14.81,14.81,0,0,0,1,5.6,13.9,13.9,0,0,0,2.72,4.34,11.56,11.56,0,0,0,4,2.8A12,12,0,0,0,24.65,78.5Z"/><path class="cls-1" d="M75.06,87a19.7,19.7,0,0,1-5.77-.85,14.43,14.43,0,0,1-4.83-2.52,12.19,12.19,0,0,1-4.58-9.86v-.17a13.38,13.38,0,0,1,1.3-6.08,11.87,11.87,0,0,1,3.61-4.31,16.13,16.13,0,0,1,5.6-2.55,28.49,28.49,0,0,1,7.18-.86,36.39,36.39,0,0,1,6.34.49,41.89,41.89,0,0,1,5.19,1.3V60.56c0-3.08-.9-5.41-2.72-7s-4.45-2.35-7.91-2.35A26.09,26.09,0,0,0,72,52a43.46,43.46,0,0,0-5.76,1.95l-2.6-7.71a41.75,41.75,0,0,1,7.31-2.56,37,37,0,0,1,8.85-.93q9.57,0,14.2,4.79a14.38,14.38,0,0,1,3.49,5.68,23.21,23.21,0,0,1,1.14,7.55V86.14H89V80.78a18.79,18.79,0,0,1-5.6,4.42A17.48,17.48,0,0,1,75.06,87Zm2.76-7.14a15.42,15.42,0,0,0,4.54-.65A10.79,10.79,0,0,0,86,77.37a9.23,9.23,0,0,0,2.39-2.92,7.88,7.88,0,0,0,.89-3.74V67.79a25.53,25.53,0,0,0-4.34-1.22,28.4,28.4,0,0,0-5.4-.48c-3.19,0-5.67.62-7.42,1.86a6.1,6.1,0,0,0-2.64,5.28v.16a5.53,5.53,0,0,0,2.39,4.79A10,10,0,0,0,77.82,79.89Z"/><path class="cls-1" d="M116.05,43.27h9.83v7.15a22.44,22.44,0,0,1,5.84-5.69,15.43,15.43,0,0,1,8.77-2.35,19.45,19.45,0,0,1,7.34,1.46,18.47,18.47,0,0,1,6.38,4.31,21.62,21.62,0,0,1,4.46,7,24.68,24.68,0,0,1,1.71,9.49v.17a25.27,25.27,0,0,1-1.67,9.49,21,21,0,0,1-4.46,7,19,19,0,0,1-6.37,4.3A19.47,19.47,0,0,1,140.49,87a16,16,0,0,1-8.85-2.27,22.57,22.57,0,0,1-5.76-5.28V99.12h-9.83ZM138.13,78.5a11.86,11.86,0,0,0,8.65-3.69,12.69,12.69,0,0,0,2.64-4.3,16,16,0,0,0,1-5.72v-.17a15.75,15.75,0,0,0-1-5.64,13.18,13.18,0,0,0-2.64-4.34,11.76,11.76,0,0,0-8.65-3.74,12.07,12.07,0,0,0-4.79,1,11.62,11.62,0,0,0-4,2.8A13.84,13.84,0,0,0,126.65,59a14.81,14.81,0,0,0-1,5.6v.17a14.81,14.81,0,0,0,1,5.6,13.72,13.72,0,0,0,2.72,4.34,11.62,11.62,0,0,0,4,2.8A12.06,12.06,0,0,0,138.13,78.5Z"/><path class="cls-1" d="M195.93,87.11a22.86,22.86,0,0,1-8.64-1.62,20.94,20.94,0,0,1-11.72-11.57,23.1,23.1,0,0,1-1.72-9V64.7A24.17,24.17,0,0,1,175.4,56a21.66,21.66,0,0,1,4.35-7.1,20.42,20.42,0,0,1,6.63-4.79,20,20,0,0,1,8.46-1.75,20.4,20.4,0,0,1,9,1.87,18.47,18.47,0,0,1,6.42,5,21.69,21.69,0,0,1,3.86,7.35,29.39,29.39,0,0,1,1.31,8.81c0,.43,0,.87,0,1.33s-.07.94-.13,1.42H183.76a12.48,12.48,0,0,0,4.18,8.08,12.31,12.31,0,0,0,8.16,2.8,14.48,14.48,0,0,0,6.33-1.29A20.69,20.69,0,0,0,207.7,74l5.77,5.11a23.72,23.72,0,0,1-7.35,5.85A22.05,22.05,0,0,1,195.93,87.11Zm9.66-25.41a16.71,16.71,0,0,0-1.05-4.42,11.44,11.44,0,0,0-2.18-3.57,10.34,10.34,0,0,0-3.28-2.4,10.14,10.14,0,0,0-4.32-.89,9.88,9.88,0,0,0-7.49,3.12,14.22,14.22,0,0,0-3.59,8.16Z"/><path class="cls-1" d="M230.92,43.27h9.82v9.66a19,19,0,0,1,5.77-7.79,13.78,13.78,0,0,1,9.41-2.68V52.85h-.57a16.07,16.07,0,0,0-5.92,1.06,12.42,12.42,0,0,0-4.63,3.16,14.25,14.25,0,0,0-3,5.32,23.62,23.62,0,0,0-1.06,7.43V86.14h-9.82Z"/><path class="cls-1" d="M288.48,87.11a22,22,0,0,1-8.85-1.75,21.75,21.75,0,0,1-7-4.74A21.52,21.52,0,0,1,268,73.55a22.41,22.41,0,0,1-1.67-8.6v-.16A22.77,22.77,0,0,1,268,56.14,21.56,21.56,0,0,1,272.65,49a22.49,22.49,0,0,1,7.06-4.83,21.91,21.91,0,0,1,8.93-1.79,26.47,26.47,0,0,1,5.48.53,20.76,20.76,0,0,1,4.55,1.5,20.53,20.53,0,0,1,3.81,2.35,33.44,33.44,0,0,1,3.29,3l-6.17,6.57a22.63,22.63,0,0,0-4.83-3.85,12.1,12.1,0,0,0-6.21-1.5,11.22,11.22,0,0,0-4.95,1.09A12.85,12.85,0,0,0,279.67,55a13.16,13.16,0,0,0-2.6,4.35,15,15,0,0,0-.93,5.27v.17a15.27,15.27,0,0,0,.93,5.35,13.23,13.23,0,0,0,2.64,4.39,12.22,12.22,0,0,0,4.06,2.92,12.6,12.6,0,0,0,5.19,1A12.35,12.35,0,0,0,295.09,77a22.33,22.33,0,0,0,5-3.81L306,79.07a26.93,26.93,0,0,1-7.22,5.81A21.24,21.24,0,0,1,288.48,87.11Z"/><path class="cls-1" d="M320.71,26.88h9.82v23A30.52,30.52,0,0,1,332.84,47a13.41,13.41,0,0,1,2.92-2.4A16.4,16.4,0,0,1,339.42,43a15.21,15.21,0,0,1,4.5-.61q7.31,0,11.29,4.47t4,11.93V86.14h-9.82V61.78c0-3.35-.8-5.94-2.39-7.75a8.58,8.58,0,0,0-6.78-2.72,9.2,9.2,0,0,0-7,2.8q-2.68,2.8-2.68,7.84V86.14h-9.82Z"/><path class="cls-1" d="M389.06,87a19.68,19.68,0,0,1-5.76-.85,14.38,14.38,0,0,1-4.84-2.52,12.63,12.63,0,0,1-3.32-4.14,12.45,12.45,0,0,1-1.26-5.72v-.17a13.38,13.38,0,0,1,1.3-6.08,11.87,11.87,0,0,1,3.61-4.31,16.13,16.13,0,0,1,5.6-2.55,28.52,28.52,0,0,1,7.19-.86,36.35,36.35,0,0,1,6.33.49,41.45,41.45,0,0,1,5.19,1.3V60.56c0-3.08-.9-5.41-2.72-7s-4.45-2.35-7.91-2.35A26.09,26.09,0,0,0,386,52a43.46,43.46,0,0,0-5.76,1.95l-2.6-7.71a41.75,41.75,0,0,1,7.31-2.56,37,37,0,0,1,8.85-.93q9.57,0,14.2,4.79a14.52,14.52,0,0,1,3.5,5.68,23.49,23.49,0,0,1,1.13,7.55V86.14H403V80.78a18.79,18.79,0,0,1-5.6,4.42A17.48,17.48,0,0,1,389.06,87Zm2.76-7.14a15.42,15.42,0,0,0,4.54-.65A10.79,10.79,0,0,0,400,77.37a9.23,9.23,0,0,0,2.39-2.92,7.89,7.89,0,0,0,.9-3.74V67.79a25.93,25.93,0,0,0-4.35-1.22,28.36,28.36,0,0,0-5.39-.48q-4.8,0-7.43,1.86a6.1,6.1,0,0,0-2.64,5.28v.16a5.55,5.55,0,0,0,2.39,4.79A10,10,0,0,0,391.82,79.89Z"/><path class="cls-1" d="M430.22,27.36h10.55V36.7H430.22Zm.4,15.91h9.83V86.14h-9.83Z"/><path class="cls-1" d="M459,43.27h9.83v6.58A30.52,30.52,0,0,1,471.09,47a13.41,13.41,0,0,1,2.92-2.4A16.4,16.4,0,0,1,477.67,43a15.17,15.17,0,0,1,4.5-.61q7.31,0,11.28,4.47t4,11.93V86.14h-9.83V61.78c0-3.35-.8-5.94-2.39-7.75a8.58,8.58,0,0,0-6.78-2.72,9.2,9.2,0,0,0-7,2.8q-2.68,2.8-2.68,7.84V86.14H459Z"/></g></svg></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto mr-lg-5">
+                            <li class="nav-item"><a class="nav-link" href="/">App</a></li>
+                        </ul>
+<a class="typeform-share button typeform-share button btn-white btn rounded-pill px-4 ml-lg-4" href="https://form.typeform.com/to/Nrj07Ei5" id="cta-menu" data-mode="popup" data-hide-footer=true target="_blank">Join Waitlist<i class="fas fa-arrow-right ml-1"></i></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                    </div>
+                </div>
+            </nav>
+
+
+<header class="page-header page-header-white bg-gradient-fade-green-to-fade-light">
+                        <div class="page-header-content pt-10">
+                            <div class="container text-center">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <h1 class="page-header-title mb-3" style="font-size:5vh;">E-sign Consent</h1>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    <section class="pb-10 pt-10" id="mission">
+                        <div class="container">
+                          <div class="row justify-content-center text-left">
+                                                    <div class="col-lg-8">
+                                                      <div class="agreement-text mb-5">
+
+                                                      <h2 id="electronic-communications-agreement">ELECTRONIC COMMUNICATIONS AGREEMENT</h2>
+<p>This E-sign Disclosure and Consent (“E-sign Consent”) applies to all Records and Communications for services provided on the Paperchain website and mobile application. “Records and Communications” includes all communications and mobile application notifications related to the accounts issued by Evolve Bank and Stripe Payments Company through Paperchain Inc., dba Paperchain, including the services described in the Terms of Use (<a href="https://paperchain.io/terms-of-use">https://paperchain.io/terms-of-use</a>) as well as any modification or amendments hereto; any policies, notices or disclosures; and all other information that we may be required to provide to you in writing by law.</p>
+<p>a. <strong>Records and Communications May be Provided in Electronic Form</strong>. You agree that we may provide you with Records and Communications in electronic format. Your consent to receive electronic Records and Communications includes, but is not limited to:</p>
+<ul>
+<li>All legal and regulatory disclosures and communications for Paperchain services;</li>
+<li>Notices or disclosures about a change in the terms governing use of Paperchain services;</li>
+<li>Privacy policies and notices;</li>
+<li>Responses to claims filed in connection with Paperchain.</li>
+</ul>
+<p>b. <strong>Providing Records and Communications in Electronic Form</strong>. All Records and Communications to you in electronic form may be provided (i) by email, (ii) by access to a website designated in an email notice from Paperchain to you, or (iii) to the extent permissible by law, by access to a website generally designated in advance for such purpose.</p>
+<p>c. <strong>How to Withdraw Consent</strong>. You may withdraw your consent to receive Records and Communications in electronic form by contacting us in the application or at <a href="mailto:support@paperchain.io">support@paperchain.io</a>. Once we process your request to withdraw your consent to receive Records and Communications in electronic form, your access and use of the Paperchain services will terminate. Any withdrawal of your consent to receive electronic Records and Communications will be effective only after we have a reasonable period of time to process your withdrawal.</p>
+<p>d. <strong>How to Update Your Information</strong>. You are responsible to provide us with true, accurate and complete email address, contact and other information related to this E-sign Consent and to Paperchain services and to maintain and update promptly any changes in that information. You can update your information by contacting us in the application or at <a href="mailto:support@paperchain.io">support@paperchain.io</a>.</p>
+<p>e. <strong>Hardware and Software Requirements</strong>. In order to access, view and retain electronic Records and Communications that we make available to you, you must have:</p>
+<ul>
+<li>An internet browser that we support, which include Internet Explorer 10 or higher;</li>
+<li>Local, electronic storage capacity to retain Records or Communications or a printer to print them;</li>
+<li>A valid email account and software to access that email account;</li>
+<li>An up-to-date device or devices (e.g., computer, tablet, mobile phone, etc.) suitable for connecting to the Internet and supported by Paperchain;</li>
+<li>An operating system capable of receiving, accessing and displaying Records and Communications from us in electronic form via text-formatted email or access to our website using a supported browser</li>
+</ul>
+<p>f. <strong>Requesting Paper Copies</strong>. We will send no paper copy of any Records and Communications to you unless you request it or we otherwise deem it appropriate to do so. You can obtain a paper copy of your electronic Records and Communications by printing it yourself or by requesting that we mail you a paper copy. To request a paper copy of any particular Records and Communication be mailed to you, contact us in application or <a href="mailto:support@paperchain.io">support@paperchain.io</a>. Please make sure to state that you are requesting a paper copy of particular Records and Communications.</p>
+<p>g. <strong>Records and Communications in Writing</strong>. All Records and Communications in electronic or paper format from us to you will be considered “in writing”. You should print or download for your records a copy of this E-sign Consent and any other Records and Communications important to you.</p>
+<p>h. <strong>Federal Law</strong>. You acknowledge and agree that this E-sign Consent is being provided by you in connection with a transaction affecting interstate commerce that is subject to the federal Electronic Signatures in Global and National Commerce Act, and that you and Paperchain both intend that the Act apply to the fullest extent possible to validate our ability to conduct business with you by electronic means.</p>
+<p>i. <strong>Termination/Changes</strong>. Paperchain reserves the right, in our sole discretion, to discontinue the provision of electronic Records and Communications, or to terminate or change the terms and conditions on which we provide electronic Records and Communications. We will provide you with notice of any such termination or change as required by law.</p>
+<p>j. <strong>Consent</strong>. You hereby give your affirmative consent to receive electronic Records and Communications as described in this E-sign Consent. You further agree that your computer or other device satisfies the hardware and software requirements specified above and that you have provided Paperchain with a current email address at which we may send you electronic Records and Communications.</p>
+<p>k. <strong>Mobile Contact</strong>. If you give a mobile phone number directly to us (e.g. as part of the sign-up process), you consent to and agree to accept text/SMS messaging related to the servicing of your account to your mobile phone from us and our agents. For any service related messaging, text messages placed to you by us or our agents, you consent and agree that those messages may be automatically sent. You may incur fees from this contact by your mobile service provider.</p>
+
+
+
+
+</div>
+
+
+                                                    </div>
+                                                </div>
+                        </div>
+
+                    </section>
+
+
+</header>
+
+                </main>
+
+<div id="layoutDefault_footer">
+    <footer class="footer pt-10 pb-5 mt-auto bg-white footer-light" style="background-color:transparent;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="icon-list-social mb-3">
+                        <a class="icon-list-social-link mr-3" href="https://www.facebook.com/paperchainio/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a class="icon-list-social-link mr-3" href="https://www.linkedin.com/company/paperchain.io" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a class="icon-list-social-link mr-3" href="https://twitter.com/paperchainio" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="icon-list-social-link" href="https://medium.com/paperchain" target="_blank"><p class="small">Paperchain Blog</p></a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-md-6 mb-5 mb-lg-0">
+                          <ul class="list-unstyled mb-0">
+                              <li class="mb-2 small">Services provided by <a href="https://stripe.com" target="_blank">Stripe Payments Company</a>. Banking services provided by Evolve Bank & Trust, Member FDIC.</li>
+                              <li class="mb-2 small">Paperchain Inc. is not a bank and the Wallet and Card product is not a banking app.</li>
+                              <li class="mb-2 small">Instant Payments by Paperchain is only available to members whose distribution or streaming platform is partnered with Paperchain. Instant Payments are provided at no cost by Paperchain, however your distributor or streaming platform may charge you for this service.</li>
+                              <li class="mb-2 small">By using this card you agree to the terms and conditions of the Cardholder Agreement and Fee Schedule, if any. </li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5" />
+            <div class="row align-items-center">
+                <div class="col-md-6 small">Copyright &copy; Paperchain Inc. 2021</div>
+                <div class="col-md-6 text-md-right small">
+                    <a href="/privacy-policy">Privacy Policy</a>
+                    •
+                    <a href="/esign-consent">E-sign Consent</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="/assets/js/scripts.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+<script type="text/javascript" src="https://mc.sendgrid.com/signup-form-app.js"></script>
+<script>
+AOS.init({
+    disable: 'mobile',
+    duration: 600,
+    once: true
+});
+</script>
+</body>
+</html>
+
