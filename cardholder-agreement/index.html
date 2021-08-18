@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="Paperchain Cardholder Agreement" />
+        <meta name="author" content="Paperchain" />
+        <title>Paperchain Cardholder Agreement</title>
+        <link href="/assets/css/styles.css" rel="stylesheet" />
+        <link href="/assets/css/custom.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png" />
+        <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+        <script src="https://malsup.github.io/jquery.form.js"></script>
+
+
+        <script>
+var TxtRotate = function(el, toRotate, period) {
+  this.toRotate = toRotate;
+  this.el = el;
+  this.loopNum = 0;
+  this.period = parseInt(period, 10) || 2000;
+  this.txt = '';
+  this.tick();
+  this.isDeleting = false;
+};
+
+TxtRotate.prototype.tick = function() {
+  var i = this.loopNum % this.toRotate.length;
+  var fullTxt = this.toRotate[i];
+
+  if (this.isDeleting) {
+    this.txt = fullTxt.substring(0, this.txt.length - 1);
+  } else {
+    this.txt = fullTxt.substring(0, this.txt.length + 1);
+  }
+
+  this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
+
+  var that = this;
+  var delta = 300 - Math.random() * 100;
+
+  if (this.isDeleting) { delta /= 2; }
+
+  if (!this.isDeleting && this.txt === fullTxt) {
+    delta = this.period;
+    this.isDeleting = true;
+  } else if (this.isDeleting && this.txt === '') {
+    this.isDeleting = false;
+    this.loopNum++;
+    delta = 500;
+  }
+
+  setTimeout(function() {
+    that.tick();
+  }, delta);
+};
+
+window.onload = function() {
+  var elements = document.getElementsByClassName('txt-rotate');
+  for (var i=0; i<elements.length; i++) {
+    var toRotate = elements[i].getAttribute('data-rotate');
+    var period = elements[i].getAttribute('data-period');
+    if (toRotate) {
+      new TxtRotate(elements[i], JSON.parse(toRotate), period);
+    }
+  }
+  
+  var css = document.createElement("style");
+  css.type = "text/css";
+  css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
+  document.body.appendChild(css);
+};
+</script>
+
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WDGVKFD');</script>
+
+    </head>
+    <body>
+      
+      <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WDGVKFD"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+      
+
+<div id="layoutDefault">
+    <div id="layoutDefault_content">
+        <main>
+            <nav class="navbar navbar-marketing navbar-expand-lg bg-transparent navbar-light fixed-top">
+                <div class="container-fluid">
+                  <a href="/"
+          ><svg
+  class="menu__logo-img"
+  xmlns="http://www.w3.org/2000/svg"
+  width="200"
+  height="80"
+  viewBox="0 0 548.09 115"
+>
+  <g id="Layer_1" data-name="Layer 1"><path class="cls-1" d="M2.56,43.27h9.83v7.15a22.59,22.59,0,0,1,5.84-5.69A15.43,15.43,0,0,1,27,42.38a19.54,19.54,0,0,1,7.35,1.46,18.53,18.53,0,0,1,6.37,4.31,21.81,21.81,0,0,1,4.47,7,24.87,24.87,0,0,1,1.7,9.49v.17a25.27,25.27,0,0,1-1.67,9.49,21,21,0,0,1-4.46,7,19,19,0,0,1-6.37,4.3A19.43,19.43,0,0,1,27,87a16,16,0,0,1-8.85-2.27,22.57,22.57,0,0,1-5.76-5.28V99.12H2.56ZM24.65,78.5a11.69,11.69,0,0,0,4.74-1,11.82,11.82,0,0,0,3.9-2.72,12.69,12.69,0,0,0,2.64-4.3,16,16,0,0,0,1-5.72v-.17a15.75,15.75,0,0,0-1-5.64,13.18,13.18,0,0,0-2.64-4.34,11.76,11.76,0,0,0-8.64-3.74,12,12,0,0,0-4.79,1,11.56,11.56,0,0,0-4,2.8A14,14,0,0,0,13.16,59a14.81,14.81,0,0,0-1,5.6v.17a14.81,14.81,0,0,0,1,5.6,13.9,13.9,0,0,0,2.72,4.34,11.56,11.56,0,0,0,4,2.8A12,12,0,0,0,24.65,78.5Z"/><path class="cls-1" d="M75.06,87a19.7,19.7,0,0,1-5.77-.85,14.43,14.43,0,0,1-4.83-2.52,12.19,12.19,0,0,1-4.58-9.86v-.17a13.38,13.38,0,0,1,1.3-6.08,11.87,11.87,0,0,1,3.61-4.31,16.13,16.13,0,0,1,5.6-2.55,28.49,28.49,0,0,1,7.18-.86,36.39,36.39,0,0,1,6.34.49,41.89,41.89,0,0,1,5.19,1.3V60.56c0-3.08-.9-5.41-2.72-7s-4.45-2.35-7.91-2.35A26.09,26.09,0,0,0,72,52a43.46,43.46,0,0,0-5.76,1.95l-2.6-7.71a41.75,41.75,0,0,1,7.31-2.56,37,37,0,0,1,8.85-.93q9.57,0,14.2,4.79a14.38,14.38,0,0,1,3.49,5.68,23.21,23.21,0,0,1,1.14,7.55V86.14H89V80.78a18.79,18.79,0,0,1-5.6,4.42A17.48,17.48,0,0,1,75.06,87Zm2.76-7.14a15.42,15.42,0,0,0,4.54-.65A10.79,10.79,0,0,0,86,77.37a9.23,9.23,0,0,0,2.39-2.92,7.88,7.88,0,0,0,.89-3.74V67.79a25.53,25.53,0,0,0-4.34-1.22,28.4,28.4,0,0,0-5.4-.48c-3.19,0-5.67.62-7.42,1.86a6.1,6.1,0,0,0-2.64,5.28v.16a5.53,5.53,0,0,0,2.39,4.79A10,10,0,0,0,77.82,79.89Z"/><path class="cls-1" d="M116.05,43.27h9.83v7.15a22.44,22.44,0,0,1,5.84-5.69,15.43,15.43,0,0,1,8.77-2.35,19.45,19.45,0,0,1,7.34,1.46,18.47,18.47,0,0,1,6.38,4.31,21.62,21.62,0,0,1,4.46,7,24.68,24.68,0,0,1,1.71,9.49v.17a25.27,25.27,0,0,1-1.67,9.49,21,21,0,0,1-4.46,7,19,19,0,0,1-6.37,4.3A19.47,19.47,0,0,1,140.49,87a16,16,0,0,1-8.85-2.27,22.57,22.57,0,0,1-5.76-5.28V99.12h-9.83ZM138.13,78.5a11.86,11.86,0,0,0,8.65-3.69,12.69,12.69,0,0,0,2.64-4.3,16,16,0,0,0,1-5.72v-.17a15.75,15.75,0,0,0-1-5.64,13.18,13.18,0,0,0-2.64-4.34,11.76,11.76,0,0,0-8.65-3.74,12.07,12.07,0,0,0-4.79,1,11.62,11.62,0,0,0-4,2.8A13.84,13.84,0,0,0,126.65,59a14.81,14.81,0,0,0-1,5.6v.17a14.81,14.81,0,0,0,1,5.6,13.72,13.72,0,0,0,2.72,4.34,11.62,11.62,0,0,0,4,2.8A12.06,12.06,0,0,0,138.13,78.5Z"/><path class="cls-1" d="M195.93,87.11a22.86,22.86,0,0,1-8.64-1.62,20.94,20.94,0,0,1-11.72-11.57,23.1,23.1,0,0,1-1.72-9V64.7A24.17,24.17,0,0,1,175.4,56a21.66,21.66,0,0,1,4.35-7.1,20.42,20.42,0,0,1,6.63-4.79,20,20,0,0,1,8.46-1.75,20.4,20.4,0,0,1,9,1.87,18.47,18.47,0,0,1,6.42,5,21.69,21.69,0,0,1,3.86,7.35,29.39,29.39,0,0,1,1.31,8.81c0,.43,0,.87,0,1.33s-.07.94-.13,1.42H183.76a12.48,12.48,0,0,0,4.18,8.08,12.31,12.31,0,0,0,8.16,2.8,14.48,14.48,0,0,0,6.33-1.29A20.69,20.69,0,0,0,207.7,74l5.77,5.11a23.72,23.72,0,0,1-7.35,5.85A22.05,22.05,0,0,1,195.93,87.11Zm9.66-25.41a16.71,16.71,0,0,0-1.05-4.42,11.44,11.44,0,0,0-2.18-3.57,10.34,10.34,0,0,0-3.28-2.4,10.14,10.14,0,0,0-4.32-.89,9.88,9.88,0,0,0-7.49,3.12,14.22,14.22,0,0,0-3.59,8.16Z"/><path class="cls-1" d="M230.92,43.27h9.82v9.66a19,19,0,0,1,5.77-7.79,13.78,13.78,0,0,1,9.41-2.68V52.85h-.57a16.07,16.07,0,0,0-5.92,1.06,12.42,12.42,0,0,0-4.63,3.16,14.25,14.25,0,0,0-3,5.32,23.62,23.62,0,0,0-1.06,7.43V86.14h-9.82Z"/><path class="cls-1" d="M288.48,87.11a22,22,0,0,1-8.85-1.75,21.75,21.75,0,0,1-7-4.74A21.52,21.52,0,0,1,268,73.55a22.41,22.41,0,0,1-1.67-8.6v-.16A22.77,22.77,0,0,1,268,56.14,21.56,21.56,0,0,1,272.65,49a22.49,22.49,0,0,1,7.06-4.83,21.91,21.91,0,0,1,8.93-1.79,26.47,26.47,0,0,1,5.48.53,20.76,20.76,0,0,1,4.55,1.5,20.53,20.53,0,0,1,3.81,2.35,33.44,33.44,0,0,1,3.29,3l-6.17,6.57a22.63,22.63,0,0,0-4.83-3.85,12.1,12.1,0,0,0-6.21-1.5,11.22,11.22,0,0,0-4.95,1.09A12.85,12.85,0,0,0,279.67,55a13.16,13.16,0,0,0-2.6,4.35,15,15,0,0,0-.93,5.27v.17a15.27,15.27,0,0,0,.93,5.35,13.23,13.23,0,0,0,2.64,4.39,12.22,12.22,0,0,0,4.06,2.92,12.6,12.6,0,0,0,5.19,1A12.35,12.35,0,0,0,295.09,77a22.33,22.33,0,0,0,5-3.81L306,79.07a26.93,26.93,0,0,1-7.22,5.81A21.24,21.24,0,0,1,288.48,87.11Z"/><path class="cls-1" d="M320.71,26.88h9.82v23A30.52,30.52,0,0,1,332.84,47a13.41,13.41,0,0,1,2.92-2.4A16.4,16.4,0,0,1,339.42,43a15.21,15.21,0,0,1,4.5-.61q7.31,0,11.29,4.47t4,11.93V86.14h-9.82V61.78c0-3.35-.8-5.94-2.39-7.75a8.58,8.58,0,0,0-6.78-2.72,9.2,9.2,0,0,0-7,2.8q-2.68,2.8-2.68,7.84V86.14h-9.82Z"/><path class="cls-1" d="M389.06,87a19.68,19.68,0,0,1-5.76-.85,14.38,14.38,0,0,1-4.84-2.52,12.63,12.63,0,0,1-3.32-4.14,12.45,12.45,0,0,1-1.26-5.72v-.17a13.38,13.38,0,0,1,1.3-6.08,11.87,11.87,0,0,1,3.61-4.31,16.13,16.13,0,0,1,5.6-2.55,28.52,28.52,0,0,1,7.19-.86,36.35,36.35,0,0,1,6.33.49,41.45,41.45,0,0,1,5.19,1.3V60.56c0-3.08-.9-5.41-2.72-7s-4.45-2.35-7.91-2.35A26.09,26.09,0,0,0,386,52a43.46,43.46,0,0,0-5.76,1.95l-2.6-7.71a41.75,41.75,0,0,1,7.31-2.56,37,37,0,0,1,8.85-.93q9.57,0,14.2,4.79a14.52,14.52,0,0,1,3.5,5.68,23.49,23.49,0,0,1,1.13,7.55V86.14H403V80.78a18.79,18.79,0,0,1-5.6,4.42A17.48,17.48,0,0,1,389.06,87Zm2.76-7.14a15.42,15.42,0,0,0,4.54-.65A10.79,10.79,0,0,0,400,77.37a9.23,9.23,0,0,0,2.39-2.92,7.89,7.89,0,0,0,.9-3.74V67.79a25.93,25.93,0,0,0-4.35-1.22,28.36,28.36,0,0,0-5.39-.48q-4.8,0-7.43,1.86a6.1,6.1,0,0,0-2.64,5.28v.16a5.55,5.55,0,0,0,2.39,4.79A10,10,0,0,0,391.82,79.89Z"/><path class="cls-1" d="M430.22,27.36h10.55V36.7H430.22Zm.4,15.91h9.83V86.14h-9.83Z"/><path class="cls-1" d="M459,43.27h9.83v6.58A30.52,30.52,0,0,1,471.09,47a13.41,13.41,0,0,1,2.92-2.4A16.4,16.4,0,0,1,477.67,43a15.17,15.17,0,0,1,4.5-.61q7.31,0,11.28,4.47t4,11.93V86.14h-9.83V61.78c0-3.35-.8-5.94-2.39-7.75a8.58,8.58,0,0,0-6.78-2.72,9.2,9.2,0,0,0-7,2.8q-2.68,2.8-2.68,7.84V86.14H459Z"/></g></svg></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto mr-lg-5">
+                            <li class="nav-item"><a class="nav-link" href="/">App</a></li>
+                        </ul>
+<a class="typeform-share button typeform-share button btn-white btn rounded-pill px-4 ml-lg-4" href="https://paperchain-tf.typeform.com/to/KHZyDh" id="cta-menu" data-mode="popup" data-hide-footer=true target="_blank">Request access<i class="fas fa-arrow-right ml-1"></i></a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+                    </div>
+                </div>
+            </nav>
+
+
+<header class="page-header page-header-white bg-gradient-fade-green-to-fade-light">
+                        <div class="page-header-content pt-10">
+                            <div class="container text-center">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-8">
+                                        <h1 class="page-header-title mb-3" style="font-size:5vh;">Paperchain Cardholder Agreement</h1>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    <section class="pb-10 pt-10" id="mission">
+                        <div class="container">
+                          <div class="row justify-content-center text-left">
+                                                    <div class="col-lg-8">
+                                                      <div class="agreement-text mb-5">
+
+                                                        <p>IMPORTANT — PLEASE READ CAREFULLY</p>
+<p><strong>1. Terms and Conditions for the Paperchain Prepaid Visa® Card.</strong> This document is an agreement (&ldquo;Agreement&rdquo;)
+containing the terms and conditions that apply to the Paperchain Visa Card that has been issued to you by
+Celtic Bank pursuant to a license from Visa U.S.A. Inc. By accepting and/or using this Card, you agree to be bound by the terms and conditions contained in this Agreement, as well as the <a href="https://stripe.com/issuing/spend-card/legal">Stripe Issuing Spend Card</a> and <a href="https://stripe.com/issuing/spend-card-user-terms/legal">Stripe Issuing Spend Card User Terms</a>. The Stripe Issuing Spend Card is issued by Celtic Bank, a Utah-chartered, Federal Deposit Insurance corporation-insured bank located in Salt Lake City, Utah (“Issuer”), and the Program is managed by Stripe, Inc., a Delaware corporation (“Stripe”). In this Agreement, “Card” means the Paperchain Visa Card, including any Secondary Card(s) you may request. “Card Account” means the records we maintain to account for the value of transactions associated with the card. “You” and “your” means the person or persons who have received the Card and who are authorized to use the Card as provided for in this Agreement. “We,” “us,” “our,” and “Bank” mean Paperchain, Issuer and Program Manager. The Card will remain the property of the Bank and must be surrendered upon demand. The Card is nontransferable, and it may be canceled, repossessed, or revoked at any time without prior notice subject to applicable law. Please read this Agreement carefully and keep it for future reference.</p>
+<p>To help the government fight the funding of terrorism and money laundering activities, federal law requires all financial institutions and their third parties to obtain, verify, and record information that identifies each person who
+obtains a Card. What this means for you: When you apply for a Card, we will ask for your name, address, date of birth, social security number or country identification number, and other information that will allow us to identify you. We also may ask to see your driver&rsquo;s license or other documentation bearing your photo as verification of your identity. By participating in the Card program, you agree that the information and statements you provide to us are accurate, including, but not limited to, your real name, valid U.S. mailing address and residential address (if different), social security number or other identification documentation, date of birth, and telephone number. If you fail to provide accurate information that we request, we may cancel your Card. In addition, funds tied to suspected illicit or illegal activity may be subject to both internal and potentially federal investigation. We reserve the right to restrict or delay your access to any such funds.</p>
+<p><strong>2. Your Card.</strong> The Card is a prepaid card. The Card allows you to access funds loaded or deposited to your Card Account by you or on your behalf. The funds in your Card Account will be FDIC-insured once we have verified your identity. You may access the funds in your Card Account by using your Card, Card Number, or by automated clearinghouse (“ACH”) debit using your Account Number. The Card is not a credit card. The Card is not a gift card, nor is it intended for gifting purposes. You will not receive any interest on your funds on the Card. The funds in your Card Account will not expire, regardless of the expiration date on the front of your Card.</p>
+<p><strong>3. FEES.</strong> THE FEES RELATING TO THE USE (AND MISUSE) OF YOUR CARD ARE SET FORTH IN THE “SCHEDULE OF FEES AND CHARGES (SCHEDULE A)” ATTACHED TO THIS AGREEMENT AND INCORPORATED HEREIN BY REFERENCE. FEES INCURRED PURSUANT TO THE TERMS OF THIS AGREEMENT WILL BE WITHDRAWN FROM YOUR CARD ACCOUNT AND WILL BE ASSESSED SO LONG AS THERE IS A REMAINING BALANCE IN YOUR CARD ACCOUNT, UNLESS PROHIBITED BY LAW. You agree to pay all fees associated with the Card. We may from time to time amend the Fee Schedule, at our sole discretion as set forth in the Section of this Agreement titled “Amendment and Cancellation.”</p>
+<p><strong>4. Authorized Users.</strong> At this time you are unable to request an additional Card (“Secondary Card”) to allow another family member or represented person to access the funds in your Card Account.</p>
+<p><strong>5. Card Account Use and Purpose.</strong> Subject to the limitations set forth in this Agreement, you may use your Card, Card Number, or Account Number, as applicable, to (1) add funds to your Card Account (as described in the Section below titled “Adding Funds to Your Card Account”), (2) transfer funds between Card Accounts, (3) purchase goods or services wherever your Card is honored as long as you do not exceed the value available in your Card Account or the Daily Purchase Limit (as defined in the table below), and (4) withdraw cash from your Card Account (as described in the Section below titled “Using Your Card to Get Cash”. There may be fees associated with some of these transactions. For fee information, see the “Schedule of Fees and Charges” attached to this Agreement. You agree not to use your Card for illegal gambling or any other illegal purpose.</p>
+<p>We will provide you with our bank routing number and assigned a <strong>12</strong>-digit Account Number once your identity has been verified. The bank routing number and your assigned Account Number are for the purpose of initiating direct deposits to your Card Account and authorized automated clearinghouse (“ACH”) debit transactions only. The 16-digit Card Number embossed or printed on your Card should not be used for these types of transactions or they will be rejected. You are not authorized to use our routing number and Account Number if you do not have sufficient funds in your Card Account. These debits will be declined, and your payment will not be processed. You also may be assessed an ACH Decline Fee (see the “Schedule of Fees and Charges” attached to this Agreement).</p>
+<p><strong>6. Limitations on Frequency and Dollar Amounts of Transactions.</strong> The total amount of ATM cash withdrawals that you can perform in any single day is limited to $300 — see Transaction Limits amounts set forth in the enclosed Schedule of Fees and Charges. For security reasons, we may further limit the number or dollar amount of transactions you can make with your Card. The following grid is provided in order to highlight the frequency and limitations of cardholder transactions in a single day or additional time frame if warranted:</p>
+<table>
+<thead>
+<tr>
+<th>Transaction/load type</th>
+<th></th>
+<th>Maximum amount per day</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maximum balance on the card</td>
+<td></td>
+<td>No maximum balance</td>
+</tr>
+<tr>
+<td>Cash Withdrawals (ATM)</td>
+<td></td>
+<td>$300</td>
+</tr>
+<tr>
+<td>Purchases</td>
+<td></td>
+<td>No daily limit</td>
+</tr>
+<tr>
+<td>Value loads</td>
+<td></td>
+<td>No daily limit</td>
+</tr>
+</tbody>
+</table>
+<p><strong>7. Personal Identification Number (“PIN”).</strong> You will be able to set a PIN that you may use with your Card once your identity has been verified. Only one (1) PIN will be issued for each Card Account. You will need a PIN to obtain cash at an ATM or to make a PIN purchase or obtain cash back at a point-of-sale (“POS”) terminal. You should not write or keep your PIN with your Card. If you believe that anyone has gained unauthorized access to your PIN, you should immediately put a hold on your account via the app, chat with us in the app, or email Paperchain at <a href="mailto:support@paperchain.io">support@paperchain.io</a>.</p>
+<p><strong>8. Adding Funds to Your Card Account.</strong> You may add funds to your Card (called “value loading” or “loading”) at any time. The maximum load amount is $10,000. You may direct deposit funds to your Card Account by providing our routing number and your assigned Account Number to your employer or other direct deposit payor (as described in the Section above titled “Card Account Use and Purpose’). You cannot load your Card Account by check or money order.</p>
+<p><strong>9. Using Your Card to Get Cash.</strong> With a PIN, you may use your Card to obtain cash or check your balance at any Automated Teller Machine (“ATM”) that bears the Visa® or INTERLINK and MAESTRO brand. All ATM transactions are treated as cash withdrawal transactions. Use the Credit account option. The maximum amount of cash you may withdraw at an ATM on a daily basis is $300 as described in the Section above titled “Limitations on Frequency and Dollar Amounts of Transactions.” We may limit the amount of any individual ATM withdrawal, and merchants, banks and ATM operators may impose additional withdrawal limits. You will be charged a fee by us for each cash withdrawal and balance inquiry made at an ATM or cash withdrawal obtained through a bank teller, in the amount disclosed in the accompanying “Schedule of Fees and Charges (Schedule A).” In addition, when you use an ATM not owned by us, you may be charged a fee by the ATM operator or any network used (and you may be charged a fee for a balance inquiry even if you do not complete a fund transfer).</p>
+<p><strong>10. Split Transactions.</strong> If you do not have enough value loaded on your Card you can instruct the merchant to charge
+a part of the purchase to the Card and pay the remaining amount with cash or another card. These are called “split
+transactions.” Some merchants do not allow cardholders to conduct split transactions. Some merchants will only allow
+you to do a split transaction if you pay the remaining amount in cash. If you fail to inform the merchant that you would
+like to complete a split transaction before swiping your Card, your Card is likely to be declined.</p>
+<p><strong>11. Transactions Using Your Card Number.</strong> If you initiate a transaction without presenting your Card (such as for
+a mail order, internet or telephone purchase, a Prefunded Check purchase or an ACH debit purchase), the legal effect
+will be the same as if you used the Card itself.</p>
+<p><strong>12. Your Obligation for Negative Balance Transactions.</strong> Each time you initiate a Card transaction, you authorize
+us to reduce the funds available in your Card Account by the amount of the transaction and all associated fees. You
+are not allowed to exceed the available amount in your Card Account through an individual transaction or a series of
+transactions (creating a “negative balance”). Nevertheless, if any transactions cause the balance in your Card Account
+to go negative, including any purchase transactions where the retailer or merchant does not request authorization, you
+shall remain fully liable to us for the amount of any negative balance and any corresponding transaction fees. You
+may also be liable for any related Insufficient Funds/NSF Fee(s) as set forth in the accompanying “Schedule of Fees
+and Charges (Schedule A).” We reserve the right to bill you for any negative balance or to recoup such negative
+balance from any other Card we have issued to you. You agree to pay us promptly for the negative balance and any
+related fees. We also reserve the right to cancel your Card if you create one or more negative balances with your Card.</p>
+<p><strong>13. Business Days.</strong> Our business days are Monday through Friday, excluding federal and legal banking holidays in
+the State of New York.</p>
+<p><strong>14. Authorization Holds.</strong> You do not have the right to stop payment on any purchase transaction originated by use
+of your Card, other than a Recurring Transaction as described in the Section below titled “Recurring Transactions.”
+When you use your Card to pay for goods or services, certain merchants may ask us to authorize the transaction in
+advance and the merchant may estimate its final value. When you use your Card to obtain cash at an ATM or from a
+bank teller, we will authorize the transaction in advance (including all applicable fees). When we authorize a purchase
+transaction, we commit to make the requested funds available when the transaction finally settles, and we will place a
+temporary hold on your Card’s funds for the amount indicated by the merchant. If you authorize a transaction and
+then fail to make a purchase of that item as planned, the approval may result in a hold for that amount of funds. Car
+rentals, hotels and other service-oriented merchants may choose to factor in additional amounts upon check-in, and it
+may take up to 60 days after your stay or your rental to have any excess amounts held by the hotel or rental company
+added back to your available balance. Similarly, some gas stations may factor in additional amounts to cover potential
+filling of the tank; if you want to avoid such a hold, you may want to pay inside the gas station, instead of paying at
+the pump. Until the transaction finally settles, the funds subject to the hold will not be available to you for other
+purposes. We will only charge your Card for the correct amount of the final transaction, and we will release any excess
+amount when the transaction finally settles.</p>
+<p>When you use your Card at certain restaurants and service-oriented merchants, there may be an additional 20% (or
+more) added to the authorization to cover any tip you may leave on the purchase. If this occurs, and your total bill,
+after adding in the additional 20% (or more), exceeds the amount available on your Card, your transactions may be
+declined. Accordingly, you should ensure that your Card has an available balance that is 20% (or more) greater than
+your total bill before using your Card.</p>
+<p><strong>15. Recurring Transactions.</strong> If you intend to use your Card for recurring transactions, you should monitor your
+balance and ensure you have funds available in your Card Account to cover the transactions. “Recurring transactions”
+are transactions that are authorized in advance by you to be charged to your Card at substantially regular intervals.
+We are not responsible if a recurring transaction is declined because you have not maintained a sufficient balance in
+your Card Account to cover the recurring transaction. If these recurring transactions may vary in amount, the person
+you are going to pay should tell you, 10 days before each payment, when it will be made and how much it will be.
+(You may choose instead to get this notice only when the payment would differ by more than a certain amount from
+the previous payment, or when the amount would fall outside certain limits that you set.) If your Card was obtained
+through your employer or you receive electronic deposits of federal payments to your Card: If you have told us in
+advance to make regular payments (i.¢., recurring transactions) from your Card Account, you can stop the payment
+by chatting with us at <a href="https://paperchain.help">https://paperchain.help</a>, or provide notice through
+<a href="mailto:support@paperchain.io">support@paperchain.io</a> or write to Paperchain Inc., 85 Delancey St c/o The Yard New York NY 10002, at least three (3) business days before the scheduled date of the transfer. If you call, we also
+may require you to put your request in writing and get it to us within 14 days after you call. If you order us to stop
+one of these payments three (3) business days or more before the transfer is scheduled, and we do not do so, we will
+be liable for your direct losses or damages. If you have authorized a merchant to make the recurring transaction, you
+also should contact the applicable merchant in order to stop the recurring transaction.</p>
+<p><strong>16. Preauthorized Credits.</strong> If you have arranged to have direct deposits made to your Card Account at least once
+every 60 days from the same person or company and you do not receive a receipt/statement (or paystub), you can contact us to find out whether or not the deposit was made.</p>
+<p><strong>17. Returns and Refunds.</strong> If you are entitled to a refund for any reason for goods or services obtained with your
+Card, you agree to accept credits to your Card Account for such refunds. You are not entitled to a check refund unless
+your Card has been closed. The amounts credited to your Card for refunds may not be available for up to five days
+from the date the refund transaction occurs.</p>
+<p><strong>18. Card Cancellation and Suspension; Limits.</strong> We reserve the right, in our sole discretion, to limit your use of the
+Card, including limiting or prohibiting specific types of transactions. We may refuse to issue a Card, revoke Card
+privileges or cancel your Card with or without cause or notice, other than as required by applicable law. If you would
+like to cancel the use of your Card, you may do so by calling through the app, chatting with us in the app or contacting <a href="mailto:support@paperchain.io">support@paperchain.io</a>.
+You agree not to use or allow others to use an expired, revoked, canceled, suspended or otherwise invalid Card. Our
+cancellation of Card privileges will not otherwise affect your rights and obligations under this Agreement. If we cancel
+or suspend your Card privileges through no fault of yours, you will be entitled to a refund as provided below in the
+Section titled “Amendment and Cancellation.” Not all services described in this Agreement are available to all persons
+or at all locations. We reserve the right to limit, at our sole discretion, the provision of any such services to any person
+or in any location. Any offer of a service in this Agreement shall be deemed void where prohibited. We can waive or
+delay enforcement of any of our rights under this Agreement without losing them.</p>
+<p><strong>19. International Transactions.</strong> International transactions are not available at this time. If you initiate a transaction in a currency or country other than the currency or country in which your Card was issued, you will be charged a fee on the transaction (including credits and reversals) as set forth in the “Schedule of Fees and Charges (Schedule A)’ attached to this Agreement. This fee is in addition to the currency conversion rate. If the transaction is in a currency other than the currency of the country in which your Card was issued, the merchant, network, or card association that processes the transaction may convert the transaction (including credits and reversals) into the currency of your Card in accordance with its policies and rates in effect at the time of the transaction. If Visa U.S.A., Inc. (“Visa”) converts the transaction, it will establish a currency conversion rate for this convenience using a rate selected by Visa from the range of rates available in wholesale currency markets for the applicable central processing date which may vary from the rate Visa itself receives, or the government
+mandated rate in effect for the applicable central processing date. If you obtain your funds in a currency or country other than the currency or country in which the Card was issued, we may increase the currency conversion rate up to an additional 3% of the transaction amount and will retain this amount as compensation for our services. This charge is independent of and in addition to the currency conversion rate established by Visa.</p>
+<p><strong>20. Receipts.</strong> You should get or request a receipt at the time you make a transaction or obtain cash using your Card.
+You agree to retain your receipts to verify your transactions. You can get a receipt at the time you make any transfer
+from your Card Account by signing into <a href="https://wallet.paperchain.io">https://wallet.paperchain.io</a> or the Paperchain mobile application.</p>
+<p><strong>21. Obtaining Balance and Transaction Information for Your Card; Periodic Statements Alternative.</strong> You
+should keep track of the amount of funds available in your Card Account. You may obtain information about the
+amount of funds you have remaining in your Card Account by logging into the app or chatting with our support team at paperchain.help. This
+information, along with a 12-month history of account transactions, is also available on-line through our customer
+self-service website. You also have the right to obtain a 24-month written history of
+account transactions by writing to us at <a href="mailto:support@paperchain.io">support@paperchain.io</a>.</p>
+<p><strong>22. Confidentiality.</strong> We may disclose information to third parties about your Card or the transactions you make
+using your Card: (1) where it is necessary for completing transactions; (2) in order to verify the existence and condition
+of your Card for a third party, such as a merchant; (3) in order to comply with government agency, court order, or
+other legal reporting requirements; (4) if you give us your written permission; (5) to our and Program Manager’s
+employees, auditors, affiliates, service providers, or attorneys as needed; and (6) as otherwise provided in our Privacy
+Policy Notice below.</p>
+<p><strong>23. Our Liability for Failure to Complete Transactions.</strong> In no event will Paperchain be liable for
+consequential damages (including lost profits), extraordinary damages, special or punitive damages. We will not be
+liable, for instance: (1) if, through no fault of ours or of the Program Manager, you do not have enough funds available
+in your Card Account to complete the transaction; (2) if a merchant refuses to accept your Card or provide cash back;
+(3)if an ATM where you are making a cash withdrawal does not have enough cash; (4) if an electronic terminal where
+you are making a transaction does not operate properly, and you knew about the problem when you initiated the
+transaction; (5) if access to your Card has been blocked after you reported your Card or Access Code(s) (“Access
+Code” includes your user ID(s), password(s), PIN(s), and any other access code or credential related to your Card
+Account) lost or stolen; (6) if there is a hold or your funds are subject to legal process or other encumbrance restricting
+their use; (7) if we or the Program Manager have reason to believe the requested transaction is unauthorized; (8) if
+circumstances beyond our or the Program Manager’s control (such as fire, flood or computer or communication
+failure) prevent the completion of the transaction, despite reasonable precautions that we or the Program Manager
+have taken; or (9) for any other exception stated in our Agreement with you.</p>
+<p><strong>24. In Case of Errors or Questions about your Card Account.</strong> If you think an error has occurred in your Card
+Account, promptly chat with us at paperchain.help, or provide notice through
+<a href="mailto:support@paperchain.io">support@paperchain.io</a> or write to Paperchain Inc., 85 Delancey St c/o The Yard New York NY 10002. We will allow you to report an error until 60 days after the earlier of the date you electronically
+access your Card Account, if the error could be viewed in your electronic history, or the date we sent the FIRST
+written history on which the error appeared. You may request a written history of your transactions at any time by
+chatting with us at paperchain.help, or provide notice through
+<a href="mailto:support@paperchain.io">support@paperchain.io</a> or write to Paperchain Inc., 85 Delancey St c/o The Yard New York NY 10002. You will need to tell us: (1) your name and Card Number; (2) why you believe there is an
+error, and the dollar amount involved, and (3) approximately when the error took place. If you tell us orally, we will
+require that you send your complaint or question in writing within 10 business days. We will determine whether an
+error occurred within 10 business days (five business days for Visa Point of Sale Signature unauthorized debit
+transactions, unless the dispute resolution team determines an exceptional basis exists, in which case Visa allows an
+additional five business days in which to provide the provisional credit) after we hear from you and will correct any
+error promptly. If we need more time, however, we may take up to 45 days to investigate your complaint or question.
+If we decide to do this, we will provisionally credit your Card within 10 business days (five business days for Visa
+Point-of Sale Signature unauthorized debit transactions, unless the dispute resolution team determines an exceptional
+basis exists, in which case Visa allows an additional five business days in which to provide the provisional credit) for
+the amount you think is in error, so that you will have the use of the money during the time it takes to complete the
+investigation. If we ask you to put your complaint or question in writing and you do not provide it within 10 business
+days, (five business days for Visa Point-of Sale Signature unauthorized debit transactions) we may not credit your
+Card Account. For errors involving new Cards (that is, Cards for which the initial deposit or value load occurred
+within the last 30 days), POS transactions, or foreign-initiated transactions, we may take up to 90 days to investigate
+your complaint or question. We will tell you the results within three business days after completing the investigation.
+If we decide that there was no error, we will send you a written explanation and debit your Card Account for the
+amount of the provisional credit. You may ask for copies of the documents that we used in our investigation. If youneed more information about our error-resolution procedures, call the Program Manager at the number on the back of
+your Card.</p>
+<p><strong>25. Lost or Stolen Cards/Unauthorized Transfers.</strong> If you believe your Card, Access Code(s), or PIN has been lost
+or stolen, chat with us at paperchain.help, or provide notice through <a href="mailto:support@paperchain.io">support@paperchain.io</a> or write to Paperchain Inc., 85 Delancey St c/o The Yard New York NY 10002. You should also chat with us at paperchain.help, or provide notice through <a href="mailto:support@paperchain.io">support@paperchain.io</a> or write to Paperchain Inc., 85 Delancey St c/o The Yard New York NY 10002 if you believe an
+electronic transfer has been made using the information from your Card, Access Code(s), or PIN without your
+permission.</p>
+<p><strong>26. Your Liability for Unauthorized Transfers.</strong> You agree to exercise reasonable control over the information
+related to your Card Account, including your Card, user ID(s) and password(s), Access Code(s) and PIN. Tell us AT
+ONCE if you believe your Card, user ID(s) and password(s), Access Code(s), or PIN has been lost or stolen. Also, if
+your transaction history shows transfers that you did not make, including those made with your Card, Card Number
+or Account Number, or you believe an electronic transfer has been made without your permission, tell us at once. The
+best way to keep your losses down is by calling the toll-free number on the back of your Card or 1-888-851-1172.
+You could lose all of the money in your Card Account. If you tell us within two (2) business days after you learn of
+the loss or theft of your Card, you can lose no more than $50.00 if someone used your Card without your permission.
+If you do NOT tell us within two (2) business days after you learn of the loss or theft of your Card, and we can prove
+that we could have stopped someone from using your Card without your permission if you had told us, you could lose
+as much as $500.00. If you do not tell us within 60 days after the earlier of the date you electronically access your
+Card Account or the date we sent the FIRST written history on which the error appeared, you may not get back any
+money you lost after the 60 days if we can prove that we could have stopped someone from taking the money if you
+had told us in time. If a good, documented, reason (such as a long trip or a hospital stay) kept you from telling us, we
+will extend the time periods.</p>
+<p>Visa’s Zero Liability Policy. In addition to the limitations on liability described above, you will not be liable for
+unauthorized use that occurs after you notify us of the loss, theft or unauthorized use of your Card, Access Code(s),
+or PIN. You also agree to cooperate completely with us in attempts to recover funds from unauthorized users and to
+assist in their prosecution. We may issue replacement Card(s), Access Code(s), and PIN(s), but only after you have
+provided such proof and security or indemnification as we may require. In addition, you acknowledge that we may
+have to deactivate your Card(s) and/or Card Account to prevent future losses. If you share your Card(s), Access
+Code(s), or PIN with another person, use of your Card Account by that person may be considered as authorized. If
+you authorize another person to use your Card, Access Code(s), or PIN, you agree that you will be liable for all
+transactions arising from use of the Card, Access Code(s), or PIN by such person except as otherwise set forth in this
+Agreement. In all cases, our liability for an unauthorized transaction is limited to reimbursing you for the face amount
+of the unauthorized transaction and any corresponding fees, except as otherwise required by applicable law. A
+transaction is unauthorized if it is not initiated by you, you did not give permission to make the transaction and you
+do not benefit from the transaction in any way. Visa’s Zero Liability policy covers U.S.—issued cards only and
+does not apply to ATM transactions outside the Visa and PLUS networks, PIN transactions not processed by
+Visa, or certain commercial card transactions. Cardholder must notify us promptly of any unauthorized use.</p>
+<p><strong>27. Other Terms.</strong> Your Card and your obligations under this Agreement may not be assigned. We may transfer our
+rights under this Agreement. Use of your Card is subject to all applicable rules and customs of any clearinghouse or
+other association involved in transactions. We do not waive our rights by delaying or failing to exercise them at any
+time. If any provision of this Agreement is determined to be invalid or unenforceable under any rule, law or regulation
+of any governmental agency, whether local, state or federal, the validity or enforceability of any other provision of
+this Agreement shall not be affected. This Agreement shall be governed by the law of the State of New York except
+to the extent preempted or governed by federal law.</p>
+<p><strong>28. Amendment and Cancellation.</strong> We may amend or change the terms and conditions of this Agreement at any
+time. You will be notified of any change in the manner provided by applicable law before the effective date of the
+change. However, if the change is made for security purposes, we may implement such change without prior notice.
+We may cancel or suspend your Card or this Agreement at any time. You also may cancel this Agreement by chatting with us at paperchain.help, or provide notice through
+<a href="mailto:support@paperchain.io">support@paperchain.io</a> or write to Paperchain Inc., 85 Delancey St c/o The Yard New York NY 10002. If you cancel your Card, you may zero out your Card Account
+balance before closing your Card Account or request that we send you a check in the amount of your Card Account
+balance when you close your Card Account, which we will do for a fee as set forth in the “Schedule of Fees and
+Charges (Schedule A)” attached to this Agreement. If your Card is canceled by us when your Card Account has a
+balance, we will send you a check in the amount of your Card Account balance for no charge. In all events, any check
+we send will be sent to the address we have for you in our records. Your termination of this Agreement will not affect
+any of our rights or your obligations arising under this Agreement before termination.</p>
+<p><strong>29. Telephone Monitoring/Recording.</strong> From time to time we may monitor and/or record telephone calls between
+you and us to assure the quality of our customer service or as required by applicable law.</p>
+<p><strong>30. No Warranty Regarding Goods and Services.</strong> We are not responsible for the quality, safety, legality, or any
+other aspect of any goods or services you purchase with your Card.</p>
+<p><strong>31. Arbitration Provision.</strong> This Arbitration Provision sets forth the circumstances and procedures under which
+claims (as defined below) shall be arbitrated instead of litigated in court upon the election of either party.</p>
+<p>(a) Definitions: As used in this Arbitration Provision, the term “Claim” means any claim, dispute or
+controversy between you and us, or between you and Paperchain Inc. d/b/a Paperchain for
+the Paperchain Prepaid Visa® Card or any of its agents or retailers, arising from or relating to the Card or this
+Agreement as well as any related or prior agreement that you may have had with us or the relationships resulting from
+this Agreement, including the validity, enforceability or scope of this Arbitration Provision or the Agreement. “Claim”
+includes claims of every kind and nature, including but not limited to initial claims, counterclaims, cross-claims and
+third-party claims and claims based upon contract, tort, fraud and other intentional torts, statutes, regulations, common
+law and equity. The term “Claim” is to be given the broadest possible meaning that will be enforced and includes, by
+way of example and without limitation, any claim, dispute or controversy that arises from or relates to (1) your Card,
+or the Cards of any additional cardholders designated by you; (ii) the amount of available funds on the Cards; (iii)
+advertisements, promotions or oral or written statements related to the Cards, goods or services purchased with the
+Cards; (iv) the benefits and services related to the Cards; and (v) your enrollment for any Card. We shall not elect to
+use arbitration under the Arbitration Provision for any Claim that you properly file and pursue in a small claims court
+of your state or municipality so long as the Claim is individual and pending only in that court; any appeals from that
+court shall be pursued only in arbitration. As used in this Arbitration Provision, the terms “we” and “us” shall for all
+purposes mean the Bank, the Program Manager, wholly or majority owned subsidiaries, affiliates, licensees,
+predecessors, successors, and assigns; and all of their agents, employees, directors and representatives. In addition,
+“we” or “us” shall include any third party using or providing any product, service or benefit in connection with any
+Cards (including, but not limited to merchants who accept the Card, third parties who use or provide services, debt
+collectors and all of their agents, employees, directors and representatives) if, and only if, such third party is named
+as a co-party with us (or files a Claim with or against us) in connection with a Claim asserted by you. As solely used
+in this Arbitration Provision, the terms “you” or ”yours” shall mean all persons or entities approved by us to have
+and/or use a Card, including but not limited to all persons or entities contractually obligated under any of the
+Agreements and all additional cardholders.</p>
+<p>(b) Initiation of Arbitration Proceeding/Selection of Administrator: Any Claim shall be resolved, upon the
+election by you or us, by arbitration pursuant to this Arbitration Provision and the code of procedures of the national
+arbitration organization to which the Claim is referred in effect at the time the Claim is filed. Claims shall be referred
+to either Judicial Arbitration and Mediation Services (“JAMS”) or the American Arbitration Association (“AAA”), as
+selected by the party electing to use arbitration. If a selection by us of one of these organizations is unacceptable to
+you, you shall have the right within 30 days after you receive notice of our election to select the other organization
+listed to serve as arbitrator administrator. For a copy of the procedures, to file a Claim or for other information about
+these organizations, contact them as follows: (1) JAMS at 1920 Main Street, Suite 300, Los Angeles, CA 92614;
+website at <a href="http://www.jamsadr.com">www.jamsadr.com</a>; and (ii) AAA at 335 Madison Avenue, New York, NY 10017; website at <a href="http://www.adr.org">www.adr.org</a>.</p>
+<p>(c) Significance of Arbitration: IF ARBITRATION IS CHOSEN BY ANY PARTY WITH RESPECT TO A CLAIM, NEITHER YOU NOR WE WILL HAVE THE RIGHT TO LITIGATE THAT CLAIM IN COURT OR HAVE A JURY TRIAL ON THAT CLAIM, OR TO ENGAGE IN DISCOVERY EXCEPT AS PROVIDED FOR IN THE CODE OF PROCEDURES OF JAMS OR AAA, AS APPLICABLE (THE “CODE”). FURTHER, YOU WILL NOT HAVE THE RIGHT TO PARTICIPATE IN A REPRESENTATIVE CAPACITY OR AS A MEMBER OF ANY CLASS OF CLAIMANTS PERTAINING TO ANY CLAIM SUBJECT TO ARBITRATION. THE ARBITRATOR SHALL NOT CONDUCT A CLASS ARBITRATION OR A JOINT ARBITRATION EXCEPT AS SET FORTH BELOW. THE ARBITRATOR’S DECISION WILL BE FINAL AND BINDING. NOTE THAT OTHER RIGHTS THAT YOU WOULD HAVE IF YOU WENT TO COURT ALSO MAY NOT BE AVAILABLE IN ARBITRATION.</p>
+<p>(d) Restrictions on Arbitration: If either party elects to resolve a Claim by arbitration, that Claim shall be
+arbitrated on an individual basis. There shall be no right or authority for any Claims to be arbitrated on a class action
+basis or on bases involving Claims brought in a purported representative capacity on behalf of the general public,
+other Cardholders or other persons similarly situated. The arbitrator’s authority to resolve Claims is limited to Claims
+between you and us alone, and the arbitrator’s authority to make awards is limited to you and us alone. Furthermore,
+Claims brought by you against us or by us against you may not be joined or consolidated in arbitration with Claims
+brought by or against someone other than you, unless otherwise agreed to in writing by all parties. This section of
+this Arbitration Provision is the “Class Action Waiver.”</p>
+<p>(e) Location of Arbitration/Payment of Fees: Any arbitration hearing that you attend shall take place in the
+federal judicial district of your residence. At your written request, we will consider in good faith making a temporary
+advance of all or part of the filing administrative and/or hearing fees for any Claim you initiate as to which you or we
+seek arbitration. At the conclusion of the arbitration (or any appeal thereof), the arbitrator (or panel) will decide who
+will ultimately be responsible for paying the filing, administrative and/or hearing fees in connection with the
+arbitration (or appeal). If and to the extent you incur filing, administrative and/or hearing fees in arbitration, including
+for any appeal, exceeding the amount they would have been if the Claim had been brought in the state or federal court
+which is closest to your billing address and would have had jurisdiction over the Claim, we will reimburse you to that
+extent unless the arbitrator (or panel) determines that the fees were incurred without any substantial justification.</p>
+<p>(f) Arbitration Procedures: This Arbitration Provision is made pursuant to a transaction involving interstate
+commerce, and shall be governed by the Federal Arbitration Act, 9 U.S.C. Sections 1-16, as it may be amended (the
+“FAA”). The arbitration shall be governed by the applicable Code, except that (to the extent enforceable under the
+FAA) this arbitration Provision shall control if it is inconsistent with the applicable Code. The arbitrator shall apply
+applicable substantive law consistent with the FAA and applicable statutes of limitations and shall honor claims of
+privilege recognized at law and, at the timely request of either party, shall provide a brief written explanation of the
+basis for the decision. In conducting the arbitration proceeding, the arbitrator shall not apply the Federal or any state
+rules of civil procedure or rules of evidence. Either party may submit a request to the arbitrator to expand the scope
+of discovery allowable under the applicable Code. The party submitting such a request must provide a copy to the
+other party, who may submit objections to the arbitrator with a copy of the objections provided to the request party,
+within 15 days of receiving the requesting party’s notice. The granting or denial of such request will be in the sole
+discretion of the arbitrator who shall notify the parties of his/her decision within 20 days of the objecting party’s
+submission. The arbitrator shall take reasonable steps to preserve the privacy of individuals, and of business matters.
+Judgment upon the award rendered by the arbitrator may be entered in any court having jurisdiction. The arbitrator’s
+decision will be final and binding, except for any right of appeal provided by the FAA. However, any party can appeal
+that award to a three-arbitrator panel administered by the same arbitration organization, which shall consider anew
+any aspect of the initial award objected to by the appealing party. The appealing party shall have 30 days from the
+date of entry of the written arbitration award to notify the arbitration organization that it is exercising the right of
+appeal. The appeal shall be filed with the arbitration organization in the form of a dated writing. The arbitration
+organization will then notify the other party that the award has been appealed. The arbitration organization will appoint
+a three-arbitrator panel which will conduct arbitration pursuant to its Code and issue its decision within 120 days of
+the date of the appellant’s written notice. The decision of the panel shall be by majority vote and shall be final and
+binding.</p>
+<p>(g) Public Injunctive Relief: If a Claim is brought seeking public injunctive relief and a court determines that
+the restrictions in the Class Action Waiver and/or elsewhere in this Arbitration Provision prohibiting the arbitrator
+from awarding relief on behalf of third parties are unenforceable with respect to such Claim (and that determination
+becomes final after all appeals have been exhausted), the Claim for public injunctive relief will be determined in court
+and any individual Claims seeking monetary relief will be arbitrated. In such a case the parties will request that the
+court stay the Claim for public injunctive relief until the arbitration award pertaining to individual relief has been
+entered in court. In no event will a Claim for public injunctive relief be arbitrated.</p>
+<p>(h) No Preclusive Effect: No arbitration award involving the parties will have any preclusive effect as to
+issues or claims in any dispute involving anyone who is not a party to the arbitration, nor will an arbitration award in
+prior disputes involving other parties have preclusive effect in an arbitration between the parties to this Arbitration
+Provision.</p>
+<p>(i) Continuation: This Arbitration Provision shall survive termination of your Card as well as voluntary
+payment of the debt in full by you, any legal proceeding by us to collect a debt owed by you, and any bankruptcy by
+you or us. If any portion of this Arbitration Provision is deemed invalid or unenforceable under any principle or
+provision of law or equity, consistent with the FAA, it shall not invalidate the remaining portions of this Arbitration
+Provision, the Agreement or any prior agreement you may have had with us, each of which shall be enforceable
+regardless of such invalidity.</p>
+<p><strong>32. Delivery of Electronic Communications.</strong> The following E-Communication Disclosure (“<strong>Disclosure</strong>”) applies
+to any and all communications or disclosures that we are legally required to provide to you in writing in connection
+with your Card Account and any related products and services (“<strong>Communications</strong>”), to the extent you have consented
+to receiving such Communications electronically and failure to consent will result in a declined application for a
+Paperchain Prepaid Visa Card, except as provided below.</p>
+<p><strong>Scope of Communications to Be Provided in Electronic Form.</strong> When you use a product or service to which this Disclosure applies, you agree that we may provide you with any Communications in electronic format, and that we may discontinue sending paper Communications to you, unless and until you withdraw your consent as described below. Your consent to receive electronic Communications includes, but is not limited to:</p>
+<ul>
+<li>All legal and regulatory disclosures and communications associated with your Card Account and any related
+products or services</li>
+<li>Your Cardholder Agreement and any notices about a change in terms of your Cardholder Agreement
+Privacy policies and notices</li>
+<li>Error resolution policies and notices</li>
+<li>Responses to claims filed in connection with your Card Account</li>
+<li>Notices regarding insufficient funds or negative balances</li>
+</ul>
+<p><strong>Method of Providing Communications to You in Electronic Form.</strong> All Communications that we provide to you in
+electronic form will be provided either (1) by access to a web site that we will designate in an e-mail notice we send
+to you at the time the information is available, or (2) by posting such Communications on our website at
+<a href="https://paperchain.io">https://paperchain.io</a>.</p>
+<p><strong>How to Withdraw Consent.</strong> You may withdraw your consent to receive Communications in electronic form at any time by chatting with us at paperchain.help, or provide notice through <a href="mailto:support@paperchain.io">support@paperchain.io</a> or write to Paperchain Inc., 85 Delancey St c/o The Yard New York NY 10002. If you do withdraw your consent, we will close your Card Account, except where prohibited by law. We will not impose any fee to process the withdrawal of your consent to receive electronic Communications. Any withdrawal of your consent to receive electronic Communications will be effective only after we have a reasonable period of time to process your request for withdrawal. In the meantime, you will continue to receive Communications in electronic form. If you withdraw your consent, the legal validity and enforceability of prior Communications delivered in electronic form will not be affected.</p>
+<p><strong>How to Update Your Records.</strong> It is your responsibility to provide us with your true, accurate and complete e-mail address (if you have elected to receive e-mail messages from us), your contact information, and other information related to this Disclosure and your Card Account, and to maintain and update promptly any changes in this information. You can update information (such as your e-mail address) chatting with us at paperchain.help, or provide notice through
+<a href="mailto:support@paperchain.io">support@paperchain.io</a> or write to Paperchain Inc., 85 Delancey St c/o The Yard New York NY 10002.</p>
+<p>Hardware and Software Requirements. In order to access, view, and retain Communications that we make
+available to you electronically, you must have:</p>
+<ul>
+<li>An Internet browser that supports 256-bit encryption</li>
+<li>Microsoft Internet Explorer 10 or above, or the equivalent software</li>
+<li>Sufficient electronic storage capacity on your computer&rsquo;s hard drive or other data storage unit</li>
+<li>An e-mail account with an Internet service provider and e-mail software</li>
+<li>A personal computer (1 GHz Base or higher), operating system and telecommunications connections to
+the Internet capable of receiving, accessing, displaying, and either printing or storing Communications
+received from us in via a plain text-formatted e-mail or by access to our web site using browser specified
+above or equivalent software.</li>
+<li>Adobe Reader version 2015.023.20053 or higher</li>
+</ul>
+<p><strong>Requesting Paper Copies.</strong> We will not send you a paper copy of any Communication, unless you request it or we
+otherwise deem it appropriate to do so. You can obtain a paper copy of an electronic Communication by printing it
+yourself or by requesting that we mail you a paper copy, provided that such request is made within a reasonable time
+after we first provided the electronic Communication to you. To request a paper copy, chat with us at paperchain.help, or provide notice through <a href="mailto:support@paperchain.io">support@paperchain.io</a> or write to Paperchain Inc., 85 Delancey St c/o The Yard New York NY 10002.</p>
+<p><strong>Termination/Changes.</strong> We reserve the right, in our sole discretion, to discontinue the provision of your electronic</p>
+<p>Communications, or to terminate or change the terms and conditions on which we provide electronic
+Communications. We will provide you with notice of any such termination or change as required by law.</p>
+<h2 id="schedule-a">Schedule A</h2>
+<p><strong>SCHEDULE OF ALL FEES AND CHARGES FOR Paperchain Prepaid Visa® Card</strong></p>
+<table>
+<thead>
+<tr>
+<th>All Fees</th>
+<th>Amount</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Get started</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Card activation fee</td>
+<td>$0.00</td>
+<td>No charge</td>
+</tr>
+<tr>
+<td>Monthly usage</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Monthly fee</td>
+<td>$0.00</td>
+<td>No charge</td>
+</tr>
+<tr>
+<td>Add money</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Direct Deposit</td>
+<td>$0.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Bank ACH Transfer</td>
+<td>$0.00</td>
+<td></td>
+</tr>
+<tr>
+<td>PayPal Transfer</td>
+<td>N/A</td>
+<td></td>
+</tr>
+<tr>
+<td>Spend money</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Domestic Signature Transaction Fee</td>
+<td>$0.00</td>
+<td></td>
+</tr>
+<tr>
+<td>PIN Transaction Fee</td>
+<td>$0.00</td>
+<td></td>
+</tr>
+<tr>
+<td>PIN Transaction Decline Fee</td>
+<td>$0.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Get cash</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>U.S. ATM Withdrawal Fee (in network)</td>
+<td>$0.00</td>
+<td></td>
+</tr>
+<tr>
+<td>U.S. ATM Withdrawal Fee (out of network)</td>
+<td>$0.00*</td>
+<td>*subject to ATM operator fees</td>
+</tr>
+<tr>
+<td>U.S. ATM Decline Fee</td>
+<td>$0.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Information</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Deposit to a U.S Bank Account Fee</td>
+<td>n/a</td>
+<td></td>
+</tr>
+<tr>
+<td>Phone Account Access</td>
+<td>n/a</td>
+<td></td>
+</tr>
+<tr>
+<td>SMS/Email Alerts</td>
+<td>$0.00*</td>
+<td>*Additional carrier fees may apply</td>
+</tr>
+<tr>
+<td>Online Account Access</td>
+<td>$0.00</td>
+<td></td>
+</tr>
+<tr>
+<td>Using your card outside the U.S.</td>
+<td></td>
+<td>not available</td>
+</tr>
+<tr>
+<td>Replacement Card Fee</td>
+<td>$5.00</td>
+<td>(per replacement card)</td>
+</tr>
+<tr>
+<td>Express Mail Fee</td>
+<td>$20.00</td>
+<td>(each)</td>
+</tr>
+</tbody>
+</table>
+<p> </p>
+<p>Contact Paperchain Inc., by chatting with us in the app, emailing <a href="mailto:support@paperchain.io">support@paperchain.io</a>, mailing Paperchain Inc. 85 Delancey St c/o The Yard New York NY 10002 or visit <a href="https://paperchain.io">https://paperchain.io</a></p>
+<p>If you have a complaint about a card account, call the Consumer Financial Protection Bureau at 1-855-411-2372
+or visit cfpb.gov/complaint.</p>
+
+
+
+
+</div>
+
+
+                                                    </div>
+                                                </div>
+                        </div>
+
+
+                    </section>
+
+
+</header>
+
+                </main>
+
+<div id="layoutDefault_footer">
+    <footer class="footer pt-10 pb-5 mt-auto bg-white footer-light" style="background-color:transparent;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="icon-list-social mb-3">
+                        <a class="icon-list-social-link mr-3" href="https://www.facebook.com/paperchainio/" target="_blank"><i class="fab fa-facebook"></i></a>
+                        <a class="icon-list-social-link mr-3" href="https://www.linkedin.com/company/paperchain.io" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a class="icon-list-social-link mr-3" href="https://twitter.com/paperchainio" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="icon-list-social-link" href="https://medium.com/paperchain" target="_blank"><p class="small">Paperchain Blog</p></a>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="row">
+
+                        <div class="col-lg-12 col-md-6 mb-5 mb-lg-0">
+                          <ul class="list-unstyled mb-0">
+                              <li class="mb-2 small">Services provided by <a href="https://stripe.com" target="_blank">Stripe Payments Company</a>. Banking services provided by Evolve Bank & Trust, Member FDIC.</li>
+                              <li class="mb-2 small">Paperchain Inc. is not a bank and the Wallet and Card product is not a banking app.</li>
+                              <li class="mb-2 small">Instant Payments by Paperchain is only available to members whose distribution or streaming platform is partnered with Paperchain. Instant Payments are provided at no cost by Paperchain, however your distributor or streaming platform may charge you for this service.</li>
+                              <li class="mb-2 small">By using this card you agree to the terms and conditions of the Cardholder Agreement and Fee Schedule, if any. </li>
+                          </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="my-5" />
+            <div class="row align-items-center">
+                <div class="col-md-6 small">Copyright &copy; Paperchain Inc. 2021</div>
+                <div class="col-md-6 text-md-right small">
+                    <a href="/privacy-policy">Privacy Policy</a>
+                    •
+                    <a href="/esign-consent">E-sign Consent</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<script src="/assets/js/scripts.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+<script>
+AOS.init({
+    disable: 'mobile',
+    duration: 600,
+    once: true
+});
+</script>
+</body>
+</html>
+
