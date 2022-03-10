@@ -19,3 +19,5 @@ https://paperchain.netlify.com/* https://www.paperchain.io/:splat 301!
 /form-submit  / 301!
 /about-us  / 301!
 /finance  / 301!
+/music  / 301!
+/*/index.html https://paperchain.io 301!
